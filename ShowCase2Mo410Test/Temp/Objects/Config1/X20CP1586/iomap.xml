@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%ID.SerialNumber" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID" Type="UINT">
+<Prod Device="$root" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.HardwareVariant" Type="UINT">
+<Prod Device="$root" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.FirmwareVersion" Type="UINT">
+<Prod Device="$root" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IW.StorageWear" Type="UINT">
+<Prod Device="$root" DPName="StorageWear" Kind="io"/>
+</LN>
+<LN ID="%IB.ModeSwitch" Type="USINT">
+<Prod Device="$root" DPName="ModeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatusCPU" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatusCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureENV" Type="UINT">
+<Prod Device="$root" DPName="TemperatureENV" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%IX.StatusInput01" Type="BOOL">
+<Prod Device="$root" DPName="StatusInput01" Kind="io"/>
+</LN>
+<LN ID="%IB.SupplyCurrent" Type="USINT">
+<Prod Device="$root" DPName="SupplyCurrent" Kind="io"/>
+</LN>
+<LN ID="%IB.SupplyVoltage" Type="USINT">
+<Prod Device="$root" DPName="SupplyVoltage" Kind="io"/>
+</LN>
+<LN ID="%IB.IF2.NodeSwitch" Type="USINT">
+<Prod Device="$root" DPName="IF2.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.LinkOk" Type="BOOL">
+<Prod Device="$root" DPName="IF3.LinkOk" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.OutputDMAMargin" Type="DINT">
+<Prod Device="$root" DPName="IF3.OutputDMAMargin" Kind="io"/>
+</LN>
+<LN ID="%IB.IF3.NodeNumber" Type="USINT">
+<Prod Device="$root" DPName="IF3.NodeNumber" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.CycleOk" Type="BOOL">
+<Prod Device="$root" DPName="IF3.CycleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.SyncOk" Type="BOOL">
+<Prod Device="$root" DPName="IF3.SyncOk" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.TimeSeconds" Type="UDINT">
+<Prod Device="$root" DPName="IF3.TimeSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.TimeNanoseconds" Type="UDINT">
+<Prod Device="$root" DPName="IF3.TimeNanoseconds" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.NettimeSoC" Type="DINT">
+<Prod Device="$root" DPName="IF3.NettimeSoC" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.NettimeOffset" Type="DINT">
+<Prod Device="$root" DPName="IF3.NettimeOffset" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.CycleCount" Type="UDINT">
+<Prod Device="$root" DPName="IF3.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.FailedCycleCount" Type="UDINT">
+<Prod Device="$root" DPName="IF3.FailedCycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.CycleTimeViolationCount" Type="UDINT">
+<Prod Device="$root" DPName="IF3.CycleTimeViolationCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.CycleIdleTime" Type="UDINT">
+<Prod Device="$root" DPName="IF3.CycleIdleTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.CycleCongestionCount" Type="UDINT">
+<Prod Device="$root" DPName="IF3.CycleCongestionCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.CycleCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.BreakCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.BreakCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.Nettime" Type="DINT">
+<Prod Device="$root" DPName="IF6.Nettime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.DMALateOutputErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.DMALateOutputErrorCount" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.NrOfStationsMax" Type="USINT">
+<Prod Device="$root" DPName="IF6.NrOfStationsMax" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.NrOfStationsConfigured" Type="USINT">
+<Prod Device="$root" DPName="IF6.NrOfStationsConfigured" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationAtBusEnd" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationAtBusEnd" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationAtBusEndChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationAtBusEndChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationPastOutFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationPastOutFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationPastOutFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationPastOutFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationPastInFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationPastInFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationPastInFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationPastInFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncInFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncInFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncOutFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncOutFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFrameSpareSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFrameSpareSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.BusLengthConfigured" Type="DINT">
+<Prod Device="$root" DPName="IF6.BusLengthConfigured" Kind="io"/>
+</LN>
+<LN ID="::gComTCPSimActive/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimActive" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::gComTCPSimActive" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.BottomBox_ReleaseTime/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoBottomBoxReleaseTime" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.BottomBox_ReleaseTime" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.TopBox_ReleaseTime/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoTopBoxReleaseTime" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.TopBox_ReleaseTime" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diConvTop/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diConvTop" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diConvTop" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diConvBottom/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diConvBottom" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diConvBottom" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diBoxLift/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diBoxLift" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diBoxLift" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diUnloaded/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diUnloaded" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diUnloaded" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diLiftTop/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diLiftTop" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diLiftTop" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diLiftBottom/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diLiftBottom" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diLiftBottom" Kind="pv"/>
+</LN>
+<LN ID="::BoxLift:diLiftUnload/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::ComTCP_SimInputs.diLiftUnload" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::BoxLift:diLiftUnload" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doConvTop/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doConvTop" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doConvTop" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doConvBottom/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doConvBottom" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doConvBottom" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doConvLift/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doConvLift" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doConvLift" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doLiftTop/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doLiftTop" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doLiftTop" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doLiftBottom/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doLiftBottom" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doLiftBottom" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.doLiftUnload/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:doLiftUnload" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.doLiftUnload" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.ConvBottom_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoConvBottomVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.ConvBottom_Velocity" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.ConvLift_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoConvLiftVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.ConvLift_Velocity" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.ConvTop_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoConvTopVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.ConvTop_Velocity" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.InfeedConvBottom_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoInfeedConvBottomVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.InfeedConvBottom_Velocity" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.InfeedConvTop_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoInfeedConvTopVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.InfeedConvTop_Velocity" Kind="pv"/>
+</LN>
+<LN ID="::ComTCP_SimOutputs.OutfeedConv_Velocity/4" Type="REAL">
+<Prod Device="TC#1-CPYDEV" DPName="::BoxLift:aoOutfeedConvVelocity" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::ComTCP_SimOutputs.OutfeedConv_Velocity" Kind="pv"/>
+</LN>
+</Links></IO>

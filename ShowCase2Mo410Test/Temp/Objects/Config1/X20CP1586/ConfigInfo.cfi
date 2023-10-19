@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.5.38 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="BoxLift"
+      Disable="false"
+      Source="BoxLift"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\BoxLift\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\BoxLift\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\BoxLift\Exit.st.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Variables.var" />
+    </Task>
+    <Task
+      Name="ComTCP_P"
+      Disable="false"
+      Source="Libraries.ComTCP.ComTCP_P"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\Variables.var" />
+    </Task>
+    <Task
+      Name="AlarmBlink"
+      Disable="false"
+      Source="AlarmBlink"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\AlarmBlink\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\AlarmBlink\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\AlarmBlink\Exit.st.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Variables.var" />
+    </Task>
+    <Task
+      Name="Axis1ST"
+      Disable="false"
+      Source="Axis1ST"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\Axis1ST\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\Axis1ST\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\Axis1ST\Exit.st.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="RecipeMgmt"
+      Disable="false"
+      Source="RecipeMgmt"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\RecipeMgmt\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\RecipeMgmt\Init.ld.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\RecipeMgmt\Exit.ld.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Variables.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\RecipeMgmt\RecipeStateMachine.st.var" />
+    </Task>
+    <Task
+      Name="PowerON"
+      Disable="false"
+      Source="PowerON"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\PowerON\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\PowerON\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\PowerON\Exit.st.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Variables.var" />
+    </Task>
+    <Task
+      Name="CamAutomat"
+      Disable="false"
+      Source="CamAutomat"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\CamAutomat\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\CamAutomat\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\CamAutomat\Exit.st.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Variables.var" />
+    </Task>
+    <Task
+      Name="LDMPAccess"
+      Disable="false"
+      Source="LDMPAccess"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\LDMPAccess\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\LDMPAccess\Init.ld.var" />
+      <InternalFile
+        Path="C:\projects\ShowCase2Mo410Test\Temp\Objects\Config1\X20CP1586\LDMPAccess\Exit.ld.var" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Types.typ" />
+      <File
+        Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

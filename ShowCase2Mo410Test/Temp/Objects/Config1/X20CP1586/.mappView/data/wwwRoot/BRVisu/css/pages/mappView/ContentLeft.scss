@@ -1,0 +1,65 @@
+@import "mixins.scss";
+#ContentLeft_NavigationBar {	@include elemTop(7);
+}
+#ContentLeft_NavigationBar {	@include elemLeft(7);
+}
+#ContentLeft_NavigationBar {	@include elemWidth(187);
+}
+#ContentLeft_NavigationBar {	@include elemHeight(361);
+}
+#ContentLeft_NavigationBar {	z-index: 0;
+}
+#ContentLeft_ServiceNavBtn {	@include elemTop(251);
+}
+#ContentLeft_ServiceNavBtn {	@include elemLeft(28);
+}
+#ContentLeft_ServiceNavBtn {	@include elemAutoWidth(131);
+}
+#ContentLeft_ServiceNavBtn {	@include elemAutoHeight(47);
+}
+#ContentLeft_ServiceNavBtn {	z-index: 0;
+}
+#ContentLeft_MainNavBtn1 {	@include elemTop(13);
+}
+#ContentLeft_MainNavBtn1 {	@include elemLeft(28);
+}
+#ContentLeft_MainNavBtn1 {	@include elemAutoWidth(131);
+}
+#ContentLeft_MainNavBtn1 {	@include elemAutoHeight(47);
+}
+#ContentLeft_MainNavBtn1 {	z-index: 1;
+}
+#ContentLeft_AlarmNavBtn {	@include elemTop(73);
+}
+#ContentLeft_AlarmNavBtn {	@include elemLeft(28);
+}
+#ContentLeft_AlarmNavBtn {	@include elemAutoWidth(131);
+}
+#ContentLeft_AlarmNavBtn {	@include elemAutoHeight(47);
+}
+#ContentLeft_AlarmNavBtn {	z-index: 2;
+}
+#ContentLeft_HDAChartbtn {	@include elemTop(132);
+}
+#ContentLeft_HDAChartbtn {	@include elemLeft(28);
+}
+#ContentLeft_HDAChartbtn {	@include elemAutoWidth(131);
+}
+#ContentLeft_HDAChartbtn {	@include elemAutoHeight(47);
+}
+#ContentLeft_HDAChartbtn {	z-index: 3;
+}
+#ContentLeft_HDAChartbtn {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentLeft_ServiceNavBtn1 {	@include elemTop(192);
+}
+#ContentLeft_ServiceNavBtn1 {	@include elemLeft(28);
+}
+#ContentLeft_ServiceNavBtn1 {	@include elemAutoWidth(131);
+}
+#ContentLeft_ServiceNavBtn1 {	@include elemAutoHeight(47);
+}
+#ContentLeft_ServiceNavBtn1 {	z-index: 4;
+}

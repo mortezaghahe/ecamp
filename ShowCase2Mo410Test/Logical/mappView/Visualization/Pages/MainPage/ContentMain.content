@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentMain" height="522" width="598" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="148" left="379" width="38" height="33" zIndex="4" image="Media/SymbolLib/Alarm/Alarm.svg" backColor="rgba(176, 196, 222, 0)" imageColor="rgba(255, 128, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButtonStart" top="221" left="125" zIndex="1" text="$IAT/Start" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="41" left="171" width="255" height="145" zIndex="2" image="Media/ezgif.com-crop.gif" backColor="rgba(176, 196, 222, 1)" />
+    <Widget xsi:type="widgets.brease.Image" id="Image3" top="41" left="171" width="252" height="145" zIndex="3" image="Media/Capture.GIF" backColor="rgba(176, 196, 222, 1)" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButtonStart1" top="221" left="245" zIndex="5" text="$IAT/Stop" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButtonStart2" top="221" left="364" zIndex="6" text="$IAT/Reset" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="6" left="88" width="404" zIndex="7" text="$IAT/ComIphysic" textAlign="center" fontSize="13px" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle13" top="286" left="17" width="561" height="47" zIndex="0" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="295" left="288" width="94" zIndex="8" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="5000" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="294" left="24" width="209" zIndex="9" text="$IAT/Count" textAlign="left" fontSize="13px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="340" left="17" width="561" height="47" zIndex="10" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="348" left="24" width="209" zIndex="11" text="$IAT/Status" textAlign="left" fontSize="13px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="354" left="242" width="299" height="24" zIndex="12" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="294" left="455" zIndex="13" text="$IAT/Reset" />
+  </Widgets>
+</Content>

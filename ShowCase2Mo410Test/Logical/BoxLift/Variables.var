@@ -1,0 +1,74 @@
+VAR
+	aoBottomBoxReleaseTime : REAL;
+	aoConvBottomVelocity : REAL; (*Conv Bottom Velocity Speed Control*)
+	aoConvLiftVelocity : REAL; (*ConvLift Velocity Speed Control*)
+	aoConvTopVelocity : REAL; (*ConvTop VelocitySpeed Control*)
+	aoInfeedConvBottomVelocity : REAL; (*InfeedConvBottom Velocity Speed Control*)
+	aoInfeedConvTopVelocity : REAL; (*InfeedConvTop Velocity Speed Control*)
+	aoOutfeedConvVelocity : REAL; (*OutfeedConv Velocity Speed Control*)
+	aoTopBoxReleaseTime : REAL;
+	BoxCountUnloadDis : UINT;
+	CopyDone : BOOL;
+	CounterJamInfeed : CTU := (PV:=2);
+	diBoxLift : BOOL; (*Box Detection at Lift*)
+	diConvBottom : BOOL; (*Box Detection at Top conveyor*)
+	diConvTop : BOOL; (*Box Detection at Top conveyor*)
+	diLiftBottom : BOOL; (*Lift Bottom Position Feedback*)
+	diLiftTop : BOOL; (*Lift Top Position Feedback*)
+	diLiftUnload : BOOL; (*Lift Unload Position Feedback*)
+	diUnloaded : BOOL; (*Unloaded Box off lift sensor*)
+	doConvBottom : BOOL; (*Bottom Conveyor Run Cmd*)
+	doConvLift : BOOL; (*Lift Conveyor Run Cmd*)
+	doConvTop : BOOL; (*Top Conveyor Run Cmd*)
+	doLiftBottom : BOOL; (*Lift Bottom Position Cmd*)
+	doLiftTop : BOOL; (*Lift Top Position Cmd*)
+	doLiftUnload : BOOL; (*Lift Unload Position Cmd*)
+	DTGetTime_0 : DTGetTime;
+END_VAR
+VAR RETAIN
+	ErrorDes : ARRAY[0..9] OF STRING[80];
+END_VAR
+VAR
+	ErrorID : UDINT; (*0 = No Error. 1=Infeed Jam Lower  2=Infeed Jam Upper*)
+	ErrorTable : ARRAY[0..10] OF STRING[80] := ['No Error','Lower Conveyor Error','Upper Conveyor Error','Uloading Error','Upper Conveyor Product Sensor Block','Lower Conveyor Product Sensor Block','Communication With iPhysics Error','Error Extra Box On Lift Conveyor',3('')];
+	ErrorTimeString : ARRAY[0..9] OF STRING[80];
+	i : UINT; (*memeory for shift alaram*)
+	MemoUpperDischarge : BOOL; (*Will be on any time one lower picked up *)
+	oneMinTimer : TON := (PT:=T#10s);
+	Performance : UINT;
+	PrevBoxCountUnload : UINT;
+	ResetCount : BOOL;
+	SaveAlarm : BOOL;
+	SpeedInfoText : STRING[30];
+	SpeedInfoTextTable : ARRAY[0..2] OF STRING[30] := ['Speed: Low','Speed: Medium','Speed: High']; (*For chart dispaly info*)
+	State : State_enum;
+	StatusDispaly : STRING[50];
+	StatusDispalyDefault : ARRAY[0..9] OF STRING[50] := ['STOP','RUN - Wait For Box','RUN - Unloading Lower Conveyor','RUN - Unloading Upper Conveyor','RUN - Unloading Lift Conveyor','ERROR',4('')];
+	StatusDispalyTopContent : STRING[50];
+	StatusDispalyTopContentDefault : ARRAY[0..9] OF STRING[50] := ['Status: Stop',4('Status: Run'),'Status: Error','Status: Initializing Servos',3('')];
+	TimerCommErrorIphysic : TON := (PT:=T#1500ms);
+	TimerLowerSensorBlock : TON := (PT:=T#500ms);
+	TimerUpperSensorBlock : TON := (PT:=T#500ms);
+	TotalBoxUnloaded : UINT; (*Total box current job at 10s*)
+	TotalBoxUnloadedPerSpeed : ARRAY[0..2] OF REAL; (*Total box unloaded at different speed at 10s*)
+	UserBottomBoxReleaseTime : REAL := 20;
+	UserConvBottomVelocity : REAL := 1.0; (*Conv Bottom Velocity Speed ref*)
+	UserConvLiftVelocity : REAL := 1.0; (*ConvLift Velocity Speed ref*)
+	UserConvTopVelocity : REAL := 1.0; (*ConvTop VelocitySpeed ref*)
+	UserInfeedConvBottomVelocity : REAL := 0.5; (*InfeedConvBottom Velocity Speed ref*)
+	UserInfeedConvTopVelocity : REAL := 0.6; (*InfeedConvTop Velocity Speed ref*)
+	UserOutfeedConvVelocity : REAL := 1.0; (*OutfeedConv Velocity Speed ref*)
+	UserTopBoxReleaseTime : REAL := 25;
+	DispalyGraph : ARRAY[0..2] OF REAL := [1,2,3]; (*Graph info*)
+	TotalBoxUnloadedPerSpeedLow : REAL;
+	TotalBoxUnloadedPerSpeedMeduim : REAL;
+	TotalBoxUnloadedPerSpeedHigh : REAL;
+	diBoxLiftFilter : TON := (PT:=T#50ms); (*di Sensors noise filter*)
+	diLiftTopFilter : TON := (PT:=T#50ms); (*di Sensors noise filter*)
+	diLiftBottomFilter : TON := (PT:=T#50ms); (*di Sensors noise filter*)
+	diConvBottomFilter : TON := (PT:=T#50ms);
+	diConvTopFilter : TON := (PT:=T#50ms);
+	diBoxLiftTON : TON := (PT:=T#350ms); (*Predict Boxon the lift conveyor*)
+	BoxIsPassed : BOOL; (*Box Pass Memo*)
+	Test_Bit_0 : BOOL; (*To be deleted just for test*)
+END_VAR

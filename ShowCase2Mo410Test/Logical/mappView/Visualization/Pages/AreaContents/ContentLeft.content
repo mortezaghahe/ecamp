@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentLeft" height="522" width="200" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NavigationBar" id="NavigationBar" top="7" left="7" width="187" height="361" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.NavigationButton" id="ServiceNavBtn" top="251" left="28" width="131" height="47" zIndex="0" pageId="ServicePage" text="$IAT/ServicePage" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="MainNavBtn1" top="13" left="28" width="131" height="47" zIndex="1" pageId="MainPage" text="$IAT/MainPage" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="AlarmNavBtn" top="73" left="28" width="131" height="47" zIndex="2" pageId="AlarmPage" text="$IAT/AlarmePage" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="HDAChartbtn" top="132" left="28" width="131" height="47" zIndex="3" pageId="ParameterPage" text="$IAT/Param" bold="true" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="ServiceNavBtn1" top="192" left="28" width="131" height="47" zIndex="4" pageId="HDAChartPage" text="$IAT/Performance" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

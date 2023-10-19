@@ -1,0 +1,13 @@
+/* Explanation of css grids is documented in Confluence */
+
+.MainGrid {
+    background-color: var(--main-border-color);
+    display: grid;
+    /* Adapt size changes in mainNavigationWidget */
+    grid-template-columns: 48px 3px auto;
+    grid-template-rows: 48px 3px auto;
+    grid-template-areas: 
+        "sidebar . topbar"
+        "sidebar . ."
+        "sidebar . main";
+}

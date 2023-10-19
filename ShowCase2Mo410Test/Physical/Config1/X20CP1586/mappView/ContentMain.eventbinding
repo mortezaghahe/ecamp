@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentMain_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gDispalyAlarm" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image1">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image1">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_2">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gDispalyRun" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gDispalyStop" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image3">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMain" widgetRefId="Image3">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

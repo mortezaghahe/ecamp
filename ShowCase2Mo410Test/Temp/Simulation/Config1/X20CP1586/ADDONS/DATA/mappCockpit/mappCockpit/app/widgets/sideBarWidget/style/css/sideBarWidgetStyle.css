@@ -1,0 +1,11 @@
+/* Old global styling ... maybe add it to an class? */
+* {box-sizing: border-box}
+
+.SideBarClass {
+    grid-area: sidebar; /* See gridLayout.css */
+    background-color: var(--navigation-background-color);
+}
+
+.SideBarButtonPos {
+    margin-bottom: 3px;
+}

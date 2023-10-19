@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+
+
+<Content id="ContentHDA"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::BoxLift:Performance" attribute="node" />
+<Target xsi:type="brease" refId="ContentHDA_OnlineChartHDA1" attribute="graph[graph1].node" />
+</Binding></Content>
+
+
+
+<Content id="ContentHDA"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:TotalBoxUnloadedPerSpeedLow" attribute="value" />
+<Target xsi:type="brease" refId="ContentHDA_BarChartItem1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentHDA"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:TotalBoxUnloadedPerSpeedMeduim" attribute="value" />
+<Target xsi:type="brease" refId="ContentHDA_BarChartItem2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentHDA"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:TotalBoxUnloadedPerSpeedHigh" attribute="value" />
+<Target xsi:type="brease" refId="ContentHDA_BarChartItem3" attribute="value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

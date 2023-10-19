@@ -1,0 +1,21 @@
+Thu Oct 19 08:36:44 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Thu Oct 19 08:36:44 2023
+No ARsim registration found!
+
+Thu Oct 19 08:36:44 2023
+InstanceName: 0000000923c31fbb
+
+Thu Oct 19 08:36:44 2023
+WorkingDirectory: C:\projects\ShowCase2Mo410Test\Temp\Simulation\Config1\X20CP1586\
+
+Thu Oct 19 08:36:44 2023
+COMMAND_COLDSTART
+
+Thu Oct 19 08:36:46 2023
+Version: B4.91
+
+Thu Oct 19 09:01:47 2023
+COMMAND_TERMINATE
+

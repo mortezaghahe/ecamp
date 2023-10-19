@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+
+
+
+<Content id="ContentAlarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gErrorDes" attribute="value" />
+<Target xsi:type="brease" refId="ContentAlarm_TableItem1" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gErrorDes" attribute="editable" />
+<Target xsi:type="brease" refId="ContentAlarm_TableItem1" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentAlarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gErrorTime" attribute="value" />
+<Target xsi:type="brease" refId="ContentAlarm_TableItemDateTime1" attribute="value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

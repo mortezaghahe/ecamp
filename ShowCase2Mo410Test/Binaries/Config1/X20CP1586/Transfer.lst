@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="B4.91"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="LDMPAccess.br"/>
+  <Operation Delete="CamAutomat.br"/>
+  <Operation Delete="PowerON.br"/>
+  <Operation Delete="RecipeMgmt.br"/>
+  <Operation Delete="Axis1ST.br"/>
+  <Operation Delete="AlarmBlink.br"/>
+  <Operation Delete="ComTCP_P.br"/>
+  <Operation Delete="BoxLift.br"/>
+  <Operation Delete="CoTrace.br"/>
+  <Operation Delete="AsArLog.br"/>
+  <Operation Delete="MTBasics.br"/>
+  <Operation Delete="mvLoader.br"/>
+  <Operation Delete="MpRecipe.br"/>
+  <Operation Delete="MpAxis.br"/>
+  <Operation Delete="AsTCP.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="AsZip.br"/>
+  <Operation Delete="brsystem.br"/>
+  <Operation Delete="arssl.br"/>
+  <Operation Delete="McAcpAx.br"/>
+  <Operation Delete="McAxis.br"/>
+  <Operation Delete="McAcpDrv.br"/>
+  <Operation Delete="McBase.br"/>
+  <Operation Delete="arflatprv.br"/>
+  <Operation Delete="arcoal.br"/>
+  <Operation Delete="MpBase.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="asepl.br"/>
+  <Operation Delete="FileIO.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="McAcpSim.br" Memory="UserROM"/>
+  <Operation Download="powerlnk.br" Memory="UserROM"/>
+  <Operation Download="McDriveLog.br" Memory="UserROM"/>
+  <Operation Download="arsvcreg.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="FileIO.br" Memory="UserROM"/>
+  <Operation Download="asepl.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="MpBase.br" Memory="UserROM"/>
+  <Operation Download="arcoal.br" Memory="UserROM"/>
+  <Operation Download="arflatprv.br" Memory="UserROM"/>
+  <Operation Download="McBase.br" Memory="UserROM"/>
+  <Operation Download="McAcpDrv.br" Memory="UserROM"/>
+  <Operation Download="McAxis.br" Memory="UserROM"/>
+  <Operation Download="McAcpAx.br" Memory="UserROM"/>
+  <Operation Download="McAcpSys.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="MTTypes.br" Memory="UserROM"/>
+  <Operation Download="arssl.br" Memory="UserROM"/>
+  <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="AsZip.br" Memory="UserROM"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="AsTCP.br" Memory="UserROM"/>
+  <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="MpAxis.br" Memory="UserROM"/>
+  <Operation Download="MpRecipe.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="mvLoader.br" Memory="UserROM"/>
+  <Operation Download="TCLang.br" Memory="UserROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="mCoWebSc.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="TC.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="Config_3.br" Memory="UserROM"/>
+  <Operation Download="Config_2.br" Memory="UserROM"/>
+  <Operation Download="Config.br" Memory="UserROM"/>
+  <Operation Download="Config_1.br" Memory="UserROM"/>
+  <Operation Download="Settings.br" Memory="UserROM"/>
+  <Operation Download="MTBasics.br" Memory="UserROM"/>
+  <Operation Download="operator.br" Memory="UserROM"/>
+  <Operation Download="AsArLog.br" Memory="UserROM"/>
+  <Operation Download="CoTrace.br" Memory="UserROM"/>
+  <Operation Download="Config_4.br" Memory="UserROM"/>
+  <Operation Download="Cam.br" Memory="UserROM"/>
+  <Operation Download="BoxLift.br" Memory="UserROM"/>
+  <Operation Download="ComTCP_P.br" Memory="UserROM"/>
+  <Operation Download="AlarmBlink.br" Memory="UserROM"/>
+  <Operation Download="Axis1ST.br" Memory="UserROM"/>
+  <Operation Download="RecipeMgmt.br" Memory="UserROM"/>
+  <Operation Download="PowerON.br" Memory="UserROM"/>
+  <Operation Download="CamAutomat.br" Memory="UserROM"/>
+  <Operation Download="LDMPAccess.br" Memory="UserROM"/>
+</Transfer>

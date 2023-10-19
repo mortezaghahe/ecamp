@@ -1,0 +1,50 @@
+/* Defintion of the second tree grid row style*/
+.networkCommandTrace .e-alt-row {
+    background-color: #e3e3e3;
+}
+
+
+/* Hide sorting in the excel filter bar -> first three list entries (-> n+1 - n+3)*/
+.networkCommandTrace .e-excelfilter .e-menu li:nth-child(n+1):nth-child(-n+3){
+    display:none;
+}
+
+
+.tooltipBox{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    font-family: var(--main-font);
+    /*background-color: var(--main-grey-light1);*/
+}
+
+.tooltipTable{
+    display: table;
+    border-collapse: collapse !important;
+}
+
+.tooltipTableRow{
+    display: table-row;
+}
+
+.tooltipTableRowAlternate{
+    background-color: var(--main-grey-light1);
+}
+
+.tooltipTableCell{
+    display: table-cell;
+    border: 1px solid white;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 11px;
+    font-family: var(--main-font);
+}
+
+.tooltipTableCellBold{
+    font-weight: bold;
+}
+
+.tooltipTableCellModififed{
+    background-color: var(--main-orange) !important;
+    color: white;
+}

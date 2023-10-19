@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="B4.91">
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Administrators" Access="0x017F" />
+        <ACE RoleName="Operator" Access="0x005F" />
+        <ACE RoleName="Service" Access="0x005F" />
+        <ACE RoleName="Everyone" Access="0x005F" />
+      </ACL>
+      <ACL Id="3">
+        <ACE RoleName="Administrators" Access="0x01FF" />
+        <ACE RoleName="Operator" Access="0x005F" />
+        <ACE RoleName="Service" Access="0x01FF" />
+        <ACE RoleName="Everyone" Access="0x005F" />
+      </ACL>
+      <ACL Id="7">
+        <ACE RoleName="Administrators" Access="0x01FF" />
+        <ACE RoleName="Operator" Access="0x007F" />
+        <ACE RoleName="Service" Access="0x01FF" />
+        <ACE RoleName="Everyone" Access="0x005F" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="2">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">20</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="5" UnitId="5067859" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="metre per second" Symbol="m/s" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView AclId="3">
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable AclId="7" AclInherit="2" Name="gUserReset" />
+        <Variable AclId="7" AclInherit="2" Name="gUserStart" />
+        <Variable AclId="7" AclInherit="2" Name="gUserStop" />
+        <Variable Name="gDisplayBlink" />
+        <Variable Name="gDispalyAlarm" />
+        <Variable Name="gDispalyRun" />
+        <Variable Name="gDispalyStop" />
+        <Variable Name="gDispalyNoComm" />
+        <Variable Name="gSpeedRefHmi" />
+        <Variable Name="gReceiptChanged" />
+        <Variable Name="gSaveParameter" />
+        <Variable Name="gSiPhysics" />
+        <Variable Name="gErrorDes" />
+        <Variable Name="gErrorTime" />
+      </GlobalVariables>
+      <Task Name="BoxLift">
+        <Variable Name="aoConvBottomVelocity" />
+        <Variable Name="aoConvLiftVelocity" />
+        <Variable Name="aoConvTopVelocity" />
+        <Variable Name="aoInfeedConvBottomVelocity" />
+        <Variable Name="aoInfeedConvTopVelocity" />
+        <Variable Name="aoOutfeedConvVelocity" />
+        <Variable Name="State" />
+        <Variable Name="aoBottomBoxReleaseTime" />
+        <Variable Name="aoTopBoxReleaseTime" />
+        <Variable Name="UserBottomBoxReleaseTime" EURangesId="2" />
+        <Variable Name="UserConvBottomVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserConvLiftVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserConvTopVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserInfeedConvBottomVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserInfeedConvTopVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserOutfeedConvVelocity" EURangesId="2" EngineeringUnitId="5" />
+        <Variable Name="UserTopBoxReleaseTime" EURangesId="2" />
+        <Variable Name="ErrorDes" />
+        <Variable Name="ErrorTimeString" />
+        <Variable Name="SpeedInfoText" />
+        <Variable Name="ResetCount" />
+        <Variable Name="BoxCountUnloadDis" />
+        <Variable Name="StatusDispaly" />
+        <Variable Name="Performance" />
+        <Variable Name="StatusDispalyTopContent" />
+        <Variable Name="TotalBoxUnloadedPerSpeed" />
+        <Variable Name="SpeedInfoTextTable" />
+        <Variable Name="DispalyGraph" />
+        <Variable Name="TotalBoxUnloadedPerSpeedMeduim" />
+        <Variable Name="TotalBoxUnloadedPerSpeedHigh" />
+        <Variable Name="TotalBoxUnloadedPerSpeedLow" />
+      </Task>
+      <Task Name="AlarmBlink" />
+      <Task Name="RecipeMgmt">
+        <Variable Name="State" />
+        <Variable Name="uiLoad" />
+        <Variable Name="uiSave" />
+        <Variable Name="RecipeError" />
+        <Variable Name="MpRecipeCsv_0" />
+        <Variable Name="MpRecipeRegPar_0" />
+        <Variable Name="ErrorReset" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

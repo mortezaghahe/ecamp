@@ -1,0 +1,50 @@
+VAR
+	gActivateMotion : BOOL;
+	gComTCPSimActive : BOOL;
+	gDispalyAlarm : BOOL; (*Dispaly Alarm*)
+	gDispalyNoComm : BOOL; (*Display Stop image*)
+	gDispalyRun : BOOL; (*dispaly Run image*)
+	gDispalyStop : BOOL; (*Display Stop image*)
+	gDisplayBlink : BOOL;
+	gSaveParameter : BOOL;
+END_VAR
+VAR RETAIN
+	gSiPhysics : ARRAY[0..2] OF iPhysicParam_typ;
+	gSpeedRefHmi : INT;
+END_VAR
+VAR
+	gUserReset : BOOL; (*User input to reset errors*)
+	gUserStart : BOOL; (*User start input*)
+	gUserStop : BOOL; (*User start input*)
+	gReceiptChanged : BOOL;
+END_VAR
+VAR RETAIN
+	gErrorDes : ARRAY[0..9] OF STRING[80];
+	gErrorTime : ARRAY[0..9] OF DATE_AND_TIME;
+	gBoxCountUnload : CTU;
+END_VAR
+VAR
+	Axis3 : Axis_type := (Exists:=1);
+	Axis1 : Axis_type := (Exists:=1);
+	gAxisPosition : ARRAY[0..1] OF REAL;
+	gMpAxisBasic_Axis2 : MpAxisBasic;
+	gMpAxisBasic_Axis1 : MpAxisBasic;
+	gMpAxisBasic_AxisVirtu : MpAxisBasic;
+	gMpAxisCoupling_0 : MpAxisCoupling;
+	gMpAxisBasicParType_Axis2 : MpAxisBasicParType;
+	gMpAxisBasicParType_AxisVirtu : MpAxisBasicParType;
+	gMpAxisBasicParType_Axis1 : MpAxisBasicParType;
+	gCouplingPar : MpAxisCouplingParType;
+	gMpAxisBasic_Axis4 : MpAxisBasic;
+	gMpAxisBasic_Axis3 : MpAxisBasic;
+	gMpAxisBasic_AxisVirtu3 : MpAxisBasic;
+	gMpAxisCoupling_3 : MpAxisCoupling;
+	gMpAxisBasicParType_Axis4 : MpAxisBasicParType;
+	gMpAxisBasicParType_AxisVirtu3 : MpAxisBasicParType;
+	gMpAxisBasicParType_Axis3 : MpAxisBasicParType;
+	gCouplingPar3 : MpAxisCouplingParType;
+	userRatioDenominator : UINT;
+	userRatioNumerator : UINT;
+	gServoInitialized : BOOL;
+	gSpeedFactor : REAL := 1.0;
+END_VAR

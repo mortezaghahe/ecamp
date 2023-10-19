@@ -1,0 +1,62 @@
+
+.Icon-28 {
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    background-position-x: 3px;
+    background-position-y: 4px;
+    width: 28px;
+    height: 28px;
+}
+
+.e-button.Button-Navigation {
+    width: 100%; /*The width differs for login and sidebar buttons*/
+    height: 48px;
+    background-color: var(--navigation-background-color) !important; /*important is needed else the color changes if dragging is tried*/
+    border: 0px;
+    box-shadow: none !important; /*else there are frames*/
+}
+
+.Icon-startpage {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/StartPageArea.svg");
+    filter: brightness(0.75);
+}
+
+.Icon-startpage-Active, .Icon-startpage:hover {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/StartPageArea_active.svg");
+}
+
+.Icon-login {
+    background-image: url("../images/IconUser.svg");
+    filter: brightness(0.75);
+}
+
+.Icon-login-Active, .Icon-login:hover {
+    background-image: url("../images/IconUser_active.svg");
+}  
+
+.Icon-component {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/ComponentArea.svg");
+    filter: brightness(0.75);
+}
+
+.Icon-component-Active, .Icon-component:hover {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/ComponentArea_active.svg");
+} 
+
+.Icon-trace {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/TraceArea.svg");
+    filter: brightness(0.75);
+}
+
+.Icon-trace-Active, .Icon-trace:hover {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/TraceArea_active.svg");
+} 
+
+.Icon-tools {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/ToolsArea.svg");
+    filter: brightness(0.75);
+}
+
+.Icon-tools-Active, .Icon-tools:hover {
+    background-image: url("../../../mappCockpitWidget/style/images/Areas/ToolsArea_active.svg");
+} 

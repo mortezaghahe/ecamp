@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentHDA">
+    <EventBinding id="ContentHDA.freeze.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentHDA_freeze" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.OnlineChartHDA.Action" refId="ContentHDA_OnlineChartHDA1">
+            <Method type="widgets.brease.OnlineChartHDA.Action.Freeze" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentHDA">
+    <EventBinding id="ContentHDA.Play.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentHDA_Play" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.OnlineChartHDA.Action" refId="ContentHDA_OnlineChartHDA1">
+            <Method type="widgets.brease.OnlineChartHDA.Action.Unfreeze" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

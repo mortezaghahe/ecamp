@@ -1,0 +1,4 @@
+VAR
+	zzBOOL00020000:BOOL:=FALSE;
+	RecipeStateMachine:SFCActionType:=(0);
+END_VAR

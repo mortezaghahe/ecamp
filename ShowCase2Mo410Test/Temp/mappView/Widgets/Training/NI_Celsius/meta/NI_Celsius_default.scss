@@ -1,0 +1,93 @@
+@import "mixins.scss";
+@mixin widgets_Training_NI_Celsius_base {
+	@include elemAutoWidth(100);
+	@include elemAutoHeight(30);
+	@include elemMinWidth(0);
+	@include elemMaxWidth(0);
+	@include elemMinHeight(0);
+	@include elemMaxHeight(0);
+	&:not(.active):not(.disabled) {
+		border-width: 2px 2px 1px 1px;
+	}
+	&.active:not(.disabled) {
+		border-width: 2px 2px 1px 1px;
+	}
+	&.disabled {
+		border-width: 2px 6px 2px 2px;
+	}
+	@include border-radius(0px);
+	&:not(.disabled):not(.active) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+	&.disabled {
+		background-color: rgba(241, 241, 241, 1);
+	}
+	&:not(.disabled) {
+		@include backGroundGradient('');
+	}
+	&.disabled {
+		@include backGroundGradient('');
+	}
+	&:not(.disabled):not(.active) {
+		border-color: rgba(255, 136, 0, 1);
+	}
+	&.disabled {
+		border-color: rgba(200, 200, 200, 1);
+	}
+	&.active:not(.disabled) {
+		border-color: rgba(255, 136, 0, 1);
+	}
+	&.active:not(.disabled) {
+		background-color: rgba(235, 235, 235, 1);
+	}
+	&.active:not(.disabled) input {
+		color: rgba(85, 85, 85, 1);
+	}
+	&.active:not(.disabled) span.breaseNumericInput_unit {
+		color: rgba(85, 85, 85, 1);
+	}
+	border-style: solid;
+	&.disabled {
+		border-style: solid;
+	}
+	&:not(.disabled):not(.active) input {
+		color: rgba(0, 0, 0, 1);
+	}
+	&:not(.disabled):not(.active) span.breaseNumericInput_unit {
+		color: rgba(0, 0, 0, 1);
+	}
+	&.disabled input {
+		color: rgba(200, 200, 200, 1);
+	}
+	&.disabled span.breaseNumericInput_unit {
+		color: rgba(200, 200, 200, 1);
+	}
+	input {
+		@include text-alignment(right);
+	}
+	opacity: 1;
+	input {
+		font-family: Arial;
+	}
+	input {
+		font-size: 16px;
+	}
+	.breaseNumericInput_unit {
+		font-size: 14px;
+	}
+	@include rotate(0deg);
+	input {
+		@include font-weight-bold(true);
+	}
+	input {
+		@include font-style-italic(false);
+	}
+	@include box-shadow(4px 1px 3px rgba(255, 113, 0, 0.75));
+	padding: 0px 15px 0px 15px;
+	margin: 0px;
+
+}
+
+.widgets_Training_NI_Celsius_style_default {
+@include widgets_Training_NI_Celsius_base
+}

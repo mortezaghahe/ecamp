@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentParameter_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="widgets.brease.DropDownBox.Event" contentRefId="ContentParameter" widgetRefId="DropDownBox1" event="SelectedIndexChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gReceiptChanged">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentParameter.SetSpeed7.ValueChanged">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed7" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_6">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_7">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed1" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_8">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed2" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed3" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed4" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_11">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed5" event="VisibleChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="widgets.brease.NumericInput.Event" contentRefId="ContentParameter" widgetRefId="SetSpeed6" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSaveParameter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentParameter.Image1.Click">
+      <Source xsi:type="widgets.brease.Image.Event" contentRefId="ContentParameter" widgetRefId="Image1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::RecipeMgmt:ErrorReset">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

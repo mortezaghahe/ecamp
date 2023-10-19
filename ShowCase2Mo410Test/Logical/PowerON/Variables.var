@@ -1,0 +1,9 @@
+VAR
+	ObjectPassed : BOOL;
+	TON_DelayDo1 : TON;
+	CTU_CountDO1 : CTU;
+	DelayOpc : TIME := T#20s;
+	StartTimer : BOOL;
+	DelayPulse : BOOL;
+	ErrorAxis12 : LREAL;
+END_VAR

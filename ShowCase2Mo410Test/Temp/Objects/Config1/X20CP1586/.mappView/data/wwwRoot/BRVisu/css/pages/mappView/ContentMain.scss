@@ -1,0 +1,165 @@
+@import "mixins.scss";
+#ContentMain_Image1 {	@include elemTop(148);
+}
+#ContentMain_Image1 {	@include elemLeft(379);
+}
+#ContentMain_Image1 {	@include elemAutoWidth(38);
+}
+#ContentMain_Image1 {	@include elemAutoHeight(33);
+}
+#ContentMain_Image1 {	z-index: 4;
+}
+#ContentMain_Image1 {	background-color: rgba(176, 196, 222, 0);
+}
+#ContentMain_Image1 {	& > .ImageView > svg {
+		fill: rgba(255, 128, 0, 1);
+	}
+}
+#ContentMain_PushButtonStart {	@include elemAutoWidth(100);
+}
+#ContentMain_PushButtonStart {	@include elemAutoHeight(30);
+}
+#ContentMain_PushButtonStart {	@include elemTop(221);
+}
+#ContentMain_PushButtonStart {	@include elemLeft(125);
+}
+#ContentMain_PushButtonStart {	z-index: 1;
+}
+#ContentMain_Image2 {	@include elemTop(41);
+}
+#ContentMain_Image2 {	@include elemLeft(171);
+}
+#ContentMain_Image2 {	@include elemAutoWidth(255);
+}
+#ContentMain_Image2 {	@include elemAutoHeight(145);
+}
+#ContentMain_Image2 {	z-index: 2;
+}
+#ContentMain_Image2 {	background-color: rgba(176, 196, 222, 1);
+}
+#ContentMain_Image3 {	@include elemTop(41);
+}
+#ContentMain_Image3 {	@include elemLeft(171);
+}
+#ContentMain_Image3 {	@include elemAutoWidth(252);
+}
+#ContentMain_Image3 {	@include elemAutoHeight(145);
+}
+#ContentMain_Image3 {	z-index: 3;
+}
+#ContentMain_Image3 {	background-color: rgba(176, 196, 222, 1);
+}
+#ContentMain_PushButtonStart1 {	@include elemAutoWidth(100);
+}
+#ContentMain_PushButtonStart1 {	@include elemAutoHeight(30);
+}
+#ContentMain_PushButtonStart1 {	@include elemTop(221);
+}
+#ContentMain_PushButtonStart1 {	@include elemLeft(245);
+}
+#ContentMain_PushButtonStart1 {	z-index: 5;
+}
+#ContentMain_PushButtonStart2 {	@include elemAutoWidth(100);
+}
+#ContentMain_PushButtonStart2 {	@include elemAutoHeight(30);
+}
+#ContentMain_PushButtonStart2 {	@include elemTop(221);
+}
+#ContentMain_PushButtonStart2 {	@include elemLeft(364);
+}
+#ContentMain_PushButtonStart2 {	z-index: 6;
+}
+#ContentMain_Label9 {	@include elemAutoHeight(30);
+}
+#ContentMain_Label9 {	@include elemTop(6);
+}
+#ContentMain_Label9 {	@include elemLeft(88);
+}
+#ContentMain_Label9 {	@include elemAutoWidth(404);
+}
+#ContentMain_Label9 {	z-index: 7;
+}
+#ContentMain_Label9 {	@include text-alignment-all('center');
+}
+#ContentMain_Label9 {	font-size: 13px;
+}
+#ContentMain_Rectangle13 {	@include elemTop(286);
+}
+#ContentMain_Rectangle13 {	@include elemLeft(17);
+}
+#ContentMain_Rectangle13 {	@include elemWidth(561);
+}
+#ContentMain_Rectangle13 {	@include elemHeight(47);
+}
+#ContentMain_Rectangle13 {	z-index: 0;
+}
+#ContentMain_NumericOutput1 {	@include elemAutoHeight(30);
+}
+#ContentMain_NumericOutput1 {	@include elemTop(295);
+}
+#ContentMain_NumericOutput1 {	@include elemLeft(288);
+}
+#ContentMain_NumericOutput1 {	@include elemAutoWidth(94);
+}
+#ContentMain_NumericOutput1 {	z-index: 8;
+}
+#ContentMain_NumericOutput1 {	background-color: rgba(255, 255, 255, 0);
+}
+#ContentMain_Label10 {	@include elemAutoHeight(30);
+}
+#ContentMain_Label10 {	@include elemTop(294);
+}
+#ContentMain_Label10 {	@include elemLeft(24);
+}
+#ContentMain_Label10 {	@include elemAutoWidth(209);
+}
+#ContentMain_Label10 {	z-index: 9;
+}
+#ContentMain_Label10 {	@include text-alignment-all('left');
+}
+#ContentMain_Label10 {	font-size: 13px;
+}
+#ContentMain_Rectangle14 {	@include elemTop(340);
+}
+#ContentMain_Rectangle14 {	@include elemLeft(17);
+}
+#ContentMain_Rectangle14 {	@include elemWidth(561);
+}
+#ContentMain_Rectangle14 {	@include elemHeight(47);
+}
+#ContentMain_Rectangle14 {	z-index: 10;
+}
+#ContentMain_Label11 {	@include elemAutoHeight(30);
+}
+#ContentMain_Label11 {	@include elemTop(348);
+}
+#ContentMain_Label11 {	@include elemLeft(24);
+}
+#ContentMain_Label11 {	@include elemAutoWidth(209);
+}
+#ContentMain_Label11 {	z-index: 11;
+}
+#ContentMain_Label11 {	@include text-alignment-all('left');
+}
+#ContentMain_Label11 {	font-size: 13px;
+}
+#ContentMain_TextOutput1 {	@include elemTop(354);
+}
+#ContentMain_TextOutput1 {	@include elemLeft(242);
+}
+#ContentMain_TextOutput1 {	@include elemAutoWidth(299);
+}
+#ContentMain_TextOutput1 {	@include elemAutoHeight(24);
+}
+#ContentMain_TextOutput1 {	z-index: 12;
+}
+#ContentMain_MomentaryPushButton1 {	@include elemAutoWidth(100);
+}
+#ContentMain_MomentaryPushButton1 {	@include elemAutoHeight(30);
+}
+#ContentMain_MomentaryPushButton1 {	@include elemTop(294);
+}
+#ContentMain_MomentaryPushButton1 {	@include elemLeft(455);
+}
+#ContentMain_MomentaryPushButton1 {	z-index: 13;
+}

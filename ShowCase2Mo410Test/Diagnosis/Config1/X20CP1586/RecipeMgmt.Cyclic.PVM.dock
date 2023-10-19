@@ -1,0 +1,63 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=RecipeMgmt 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  uiLoad                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                  uiSave                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                        MpRecipeRegPar_0                           MpRecipeRegPar    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                        76244104"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  PVName                                    UDINT    0 "                                                       104630124"    1    7    1   10    0    0         
+                                Category                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                      UpdateNotification                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                         MpRecipeInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                                    Diag                         MpRecipeDiagType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                     MpRecipeStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpRE
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                       108067752"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               3"    2    7    1   10    0    0         
+                           sVariableName                              STRING[255]    0 "                                                    'gSiPhysics'"    0    9  256    1    1    0         
+                               sFileName                              STRING[255]    0 "                                                       'recipe1'"    0    9  256    1    1    0         
+                             sDeviceName                              STRING[255]    0 "                                                   'SIM_Recipes'"    0    9  256    1    1    0         
+                           MpRecipeCsv_0                              MpRecipeCsv    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                        76244104"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              DeviceName                                    UDINT    0 "                                                       104629612"    1    7    1   10    0    0         
+                                FileName                                    UDINT    0 "                                                       104629868"    1    7    1   10    0    0         
+                                  Header                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                Category                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                LoadType                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,mpRE
+
+                                    Load                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Save                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                      UpdateNotification                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                      MpRecipeCsvInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                                FileSize                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                             PendingSync                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        LastLoadedRecipe                              STRING[255]    0 "                                                              ''"    2    9  256    1    0    0         
+                                    Diag                         MpRecipeDiagType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                     MpRecipeStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpRE
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                             RecipeError                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         

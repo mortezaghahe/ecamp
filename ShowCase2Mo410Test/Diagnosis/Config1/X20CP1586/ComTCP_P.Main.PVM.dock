@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=ComTCP_P 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         connectionState                                      INT    0 "                                                               6"    0    3    1   10    1    0         
+                        ComTCP_SimActive                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                 ComTCP_SimServerAddress                               STRING[15]    0 "                                                     '127.0.0.1'"    0    9   16    1    0    0         
+                    ComTCP_SimServerPort                                     UINT    0 "                                                            5002"    0    6    1   10    0    0         
+                 ComTCP_SimSendCycleTime                                     TIME    0 "                                                         T#010ms"    0   12    1    1    0    0         

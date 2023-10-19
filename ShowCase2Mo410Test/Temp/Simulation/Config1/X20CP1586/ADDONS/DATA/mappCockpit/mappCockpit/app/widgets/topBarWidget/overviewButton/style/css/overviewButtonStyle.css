@@ -1,0 +1,16 @@
+.OverviewButtonImg {
+    background-image: url("../../../../common/style/images/IconOverviewPage.svg");
+}
+
+.e-button.OverviewButtonTheme {
+    grid-area: overview;
+    width: 48px;
+    height: 48px;
+    background-color: inherit;
+    border: 0px;
+    box-shadow: none !important; /*else there are frames*/
+}
+
+.e-button.OverviewButtonTheme:hover {
+    background-color: inherit;
+}

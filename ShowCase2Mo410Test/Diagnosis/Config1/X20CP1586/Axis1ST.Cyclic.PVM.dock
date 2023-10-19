@@ -1,0 +1,41 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Axis1ST 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                AxisStep                                     UINT    0 "                                                              10"    0    6    1   10    1    0         
+                       gMpAxisCoupling_0                           MpAxisCoupling    0 "                                                               *"    0   24    1    0    0    1         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                  Update                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                     Cam                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                  InSync                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                      gMpAxisBasic_Axis1                              MpAxisBasic    0 "                                                               *"    0   24    1    0    0    1         
+                                Position                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                                 IsHomed                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                  gMpAxisBasic_AxisVirtu                              MpAxisBasic    0 "                                                               *"    0   24    1    0    0    1         
+                            MoveVelocity                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                            MoveAdditive                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Position                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                            gCouplingPar                    MpAxisCouplingParType    0 "                                                               *"    0   24    1    0    0    1         
+                                     Cam                         MpAxisCamParType    0 "                                                               *"    1   24    1    0    0    1         
+                                      ID                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
+                     MasterStartPosition                                    LREAL    0 "                                                             0.0"    2   14    1   10    0    0         
+                           MasterScaling                                     DINT    0 "                                                           36000"    2    4    1   10    0    0         
+                            SlaveScaling                                     DINT    0 "                                                           36000"    2    4    1   10    0    0         
+                                    Mode                                     DINT    0 "                                                               0"    2    4    1   10    0    0 e,0,mcAX
+
+           gMpAxisBasicParType_AxisVirtu                       MpAxisBasicParType    0 "                                                               *"    0   24    1    0    0    1         
+                                Position                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                Distance                                    LREAL    0 "                                                           360.0"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                           360.0"    1    8    1   10    0    0         
+                            Acceleration                                     REAL    0 "                                                          3600.0"    1    8    1   10    0    0         
+                            Deceleration                                     REAL    0 "                                                          3600.0"    1    8    1   10    0    0         
+                                   Axis1                                Axis_type    0 "                                                               *"    0   24    1    0    0    1         
+                                 cmdStop                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 cmdHome                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                        cmdManualForward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              Test_bit_2                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                         gActivateMotion                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                       gServoInitialized                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         

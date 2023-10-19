@@ -1,0 +1,8 @@
+VAR
+	gAxis1_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxis2_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxis3_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxis4_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxisV_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxisV3_MpLink : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+END_VAR

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+  <Mapping parameter="widgets.Training.NI_Celsius.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.Training.NI_Celsius.Action.SetStyle.value" type="ANY_STRING"/>
+  <Mapping parameter="widgets.Training.NI_Celsius.Action.SetValue.value" type="ANY_REAL"/>
+  <Mapping parameter="widgets.Training.NI_Celsius.Action.SetVisible.value" type="BOOL"/>
+</Mappings>

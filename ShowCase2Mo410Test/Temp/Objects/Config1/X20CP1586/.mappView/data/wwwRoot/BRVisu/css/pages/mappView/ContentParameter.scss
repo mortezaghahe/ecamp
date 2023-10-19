@@ -1,0 +1,437 @@
+@import "mixins.scss";
+#ContentParameter_Rectangle1 {	@include elemTop(224);
+}
+#ContentParameter_Rectangle1 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle1 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle1 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle1 {	z-index: 4;
+}
+#ContentParameter_Rectangle3 {	@include elemTop(224);
+}
+#ContentParameter_Rectangle3 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle3 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle3 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle3 {	z-index: 3;
+}
+#ContentParameter_Rectangle6 {	@include elemTop(269);
+}
+#ContentParameter_Rectangle6 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle6 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle6 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle6 {	z-index: 2;
+}
+#ContentParameter_SetSpeed1 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed1 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed1 {	@include elemTop(277);
+}
+#ContentParameter_SetSpeed1 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed1 {	z-index: 5;
+}
+#ContentParameter_SetSpeed {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed {	@include elemTop(231);
+}
+#ContentParameter_SetSpeed {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed {	z-index: 6;
+}
+#ContentParameter_Rectangle5 {	@include elemTop(322);
+}
+#ContentParameter_Rectangle5 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle5 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle5 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle5 {	z-index: 8;
+}
+#ContentParameter_Rectangle7 {	@include elemTop(367);
+}
+#ContentParameter_Rectangle7 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle7 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle7 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle7 {	z-index: 7;
+}
+#ContentParameter_SetSpeed3 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed3 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed3 {	@include elemTop(375);
+}
+#ContentParameter_SetSpeed3 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed3 {	z-index: 9;
+}
+#ContentParameter_SetSpeed2 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed2 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed2 {	@include elemTop(329);
+}
+#ContentParameter_SetSpeed2 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed2 {	z-index: 10;
+}
+#ContentParameter_Rectangle10 {	@include elemTop(412);
+}
+#ContentParameter_Rectangle10 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle10 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle10 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle10 {	z-index: 12;
+}
+#ContentParameter_Rectangle11 {	@include elemTop(465);
+}
+#ContentParameter_Rectangle11 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle11 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle11 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle11 {	z-index: 11;
+}
+#ContentParameter_SetSpeed5 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed5 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed5 {	@include elemTop(473);
+}
+#ContentParameter_SetSpeed5 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed5 {	z-index: 13;
+}
+#ContentParameter_SetSpeed4 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed4 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed4 {	@include elemTop(419);
+}
+#ContentParameter_SetSpeed4 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed4 {	z-index: 14;
+}
+#ContentParameter_Label3 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label3 {	@include elemTop(230);
+}
+#ContentParameter_Label3 {	@include elemLeft(24);
+}
+#ContentParameter_Label3 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label3 {	z-index: 15;
+}
+#ContentParameter_Label3 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label3 {	font-size: 13px;
+}
+#ContentParameter_Label3 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle2 {	@include elemTop(269);
+}
+#ContentParameter_Rectangle2 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle2 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle2 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle2 {	z-index: 16;
+}
+#ContentParameter_Label4 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label4 {	@include elemTop(275);
+}
+#ContentParameter_Label4 {	@include elemLeft(24);
+}
+#ContentParameter_Label4 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label4 {	z-index: 17;
+}
+#ContentParameter_Label4 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label4 {	font-size: 13px;
+}
+#ContentParameter_Label4 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle4 {	@include elemTop(322);
+}
+#ContentParameter_Rectangle4 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle4 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle4 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle4 {	z-index: 18;
+}
+#ContentParameter_Label5 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label5 {	@include elemTop(328);
+}
+#ContentParameter_Label5 {	@include elemLeft(24);
+}
+#ContentParameter_Label5 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label5 {	z-index: 19;
+}
+#ContentParameter_Label5 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label5 {	font-size: 13px;
+}
+#ContentParameter_Label5 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle8 {	@include elemTop(367);
+}
+#ContentParameter_Rectangle8 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle8 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle8 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle8 {	z-index: 20;
+}
+#ContentParameter_Label6 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label6 {	@include elemTop(373);
+}
+#ContentParameter_Label6 {	@include elemLeft(24);
+}
+#ContentParameter_Label6 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label6 {	z-index: 21;
+}
+#ContentParameter_Label6 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label6 {	font-size: 13px;
+}
+#ContentParameter_Label6 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle9 {	@include elemTop(412);
+}
+#ContentParameter_Rectangle9 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle9 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle9 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle9 {	z-index: 22;
+}
+#ContentParameter_Label7 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label7 {	@include elemTop(418);
+}
+#ContentParameter_Label7 {	@include elemLeft(24);
+}
+#ContentParameter_Label7 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label7 {	z-index: 23;
+}
+#ContentParameter_Label7 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label7 {	font-size: 13px;
+}
+#ContentParameter_Label7 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle12 {	@include elemTop(465);
+}
+#ContentParameter_Rectangle12 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle12 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle12 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle12 {	z-index: 24;
+}
+#ContentParameter_Label8 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label8 {	@include elemTop(471);
+}
+#ContentParameter_Label8 {	@include elemLeft(24);
+}
+#ContentParameter_Label8 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label8 {	z-index: 25;
+}
+#ContentParameter_Label8 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label8 {	font-size: 13px;
+}
+#ContentParameter_Label8 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle13 {	@include elemTop(129);
+}
+#ContentParameter_Rectangle13 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle13 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle13 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle13 {	z-index: 27;
+}
+#ContentParameter_Rectangle14 {	@include elemTop(129);
+}
+#ContentParameter_Rectangle14 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle14 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle14 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle14 {	z-index: 0;
+}
+#ContentParameter_Rectangle15 {	@include elemTop(174);
+}
+#ContentParameter_Rectangle15 {	@include elemLeft(456);
+}
+#ContentParameter_Rectangle15 {	@include elemWidth(118);
+}
+#ContentParameter_Rectangle15 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle15 {	z-index: 26;
+}
+#ContentParameter_SetSpeed6 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed6 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed6 {	@include elemTop(182);
+}
+#ContentParameter_SetSpeed6 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed6 {	z-index: 28;
+}
+#ContentParameter_SetSpeed7 {	@include elemAutoWidth(100);
+}
+#ContentParameter_SetSpeed7 {	@include elemAutoHeight(30);
+}
+#ContentParameter_SetSpeed7 {	@include elemTop(136);
+}
+#ContentParameter_SetSpeed7 {	@include elemLeft(466);
+}
+#ContentParameter_SetSpeed7 {	z-index: 1;
+}
+#ContentParameter_Label9 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label9 {	@include elemTop(135);
+}
+#ContentParameter_Label9 {	@include elemLeft(24);
+}
+#ContentParameter_Label9 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label9 {	z-index: 29;
+}
+#ContentParameter_Label9 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label9 {	font-size: 13px;
+}
+#ContentParameter_Label9 {	@include font-weight-bold(true);
+}
+#ContentParameter_Rectangle16 {	@include elemTop(174);
+}
+#ContentParameter_Rectangle16 {	@include elemLeft(20);
+}
+#ContentParameter_Rectangle16 {	@include elemWidth(430);
+}
+#ContentParameter_Rectangle16 {	@include elemHeight(42);
+}
+#ContentParameter_Rectangle16 {	z-index: 30;
+}
+#ContentParameter_Label10 {	@include elemAutoHeight(30);
+}
+#ContentParameter_Label10 {	@include elemTop(180);
+}
+#ContentParameter_Label10 {	@include elemLeft(24);
+}
+#ContentParameter_Label10 {	@include elemAutoWidth(404);
+}
+#ContentParameter_Label10 {	z-index: 31;
+}
+#ContentParameter_Label10 {	@include text-alignment-all('left');
+}
+#ContentParameter_Label10 {	font-size: 13px;
+}
+#ContentParameter_Label10 {	@include font-weight-bold(true);
+}
+#ContentParameter_Line1 {	z-index: 32;
+}
+#ContentParameter_Line1 {	line {
+		stroke-linecap: square;
+	}
+}
+#ContentParameter_Line2 {	z-index: 33;
+}
+#ContentParameter_Line2 {	line {
+		stroke-linecap: square;
+	}
+}
+#ContentParameter_Line3 {	z-index: 34;
+}
+#ContentParameter_Line3 {	line {
+		stroke-linecap: square;
+	}
+}
+#ContentParameter_DropDownBox1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#ContentParameter_DropDownBox1 {	@include elemTop(46);
+}
+#ContentParameter_DropDownBox1 {	@include elemLeft(24);
+}
+#ContentParameter_DropDownBox1 {	&.DropDownBoxView {
+		@include elemWidth(160);
+	}
+}
+#ContentParameter_DropDownBox1 {	z-index: 35;
+}
+#ContentParameter_PushButtonStart1 {	@include elemAutoHeight(30);
+}
+#ContentParameter_PushButtonStart1 {	@include elemTop(46);
+}
+#ContentParameter_PushButtonStart1 {	@include elemLeft(301);
+}
+#ContentParameter_PushButtonStart1 {	@include elemAutoWidth(260);
+}
+#ContentParameter_PushButtonStart1 {	z-index: 36;
+}
+#ContentParameter_PushButtonStart2 {	@include elemAutoHeight(30);
+}
+#ContentParameter_PushButtonStart2 {	@include elemTop(83);
+}
+#ContentParameter_PushButtonStart2 {	@include elemLeft(301);
+}
+#ContentParameter_PushButtonStart2 {	@include elemAutoWidth(260);
+}
+#ContentParameter_PushButtonStart2 {	z-index: 37;
+}
+#ContentParameter_Image1 {	@include elemTop(5);
+}
+#ContentParameter_Image1 {	@include elemLeft(553);
+}
+#ContentParameter_Image1 {	@include elemAutoWidth(38);
+}
+#ContentParameter_Image1 {	@include elemAutoHeight(33);
+}
+#ContentParameter_Image1 {	z-index: 38;
+}
+#ContentParameter_Image1 {	background-color: rgba(176, 196, 222, 0);
+}
+#ContentParameter_Image1 {	& > .ImageView > svg {
+		fill: rgba(255, 128, 0, 1);
+	}
+}

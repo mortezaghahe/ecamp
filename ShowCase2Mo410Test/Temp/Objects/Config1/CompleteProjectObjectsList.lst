@@ -1,0 +1,2505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.5.38 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133417012327587669" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="133416774994225474"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\McElements.var"
+    LogicalPath="McElements.var"
+    Type="File"
+    LastWriteTime="133416796367949150"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133415124276515829"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133416821976928013"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\MNG_Global.typ"
+    LogicalPath="MNG_Global.typ"
+    Type="File"
+    LastWriteTime="133407514487538479"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133415229125291969" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131128743560000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131128743560000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131128743580000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131128743580000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="131175582100000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="131175582100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="131175582100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="131175582100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="131175582120000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="131175582120000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="131175582120000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="131175582120000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\Package.pkg"
+    LogicalPath="Libraries.ComTCP"
+    Type="Package"
+    LastWriteTime="133407512953547358" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\ANSIC.lby"
+    LogicalPath="Libraries.ComTCP.ComTCP_L"
+    Type="Library"
+    LastWriteTime="133407512952938978" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_InternalTyp.hpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_InternalTyp.hpp"
+    Type="File"
+    LastWriteTime="133407512952510121"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_ComHdlr.hpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_ComHdlr.hpp"
+    Type="File"
+    LastWriteTime="133407512952589911"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_ComHdlr.cpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_ComHdlr.cpp"
+    Type="File"
+    LastWriteTime="133407512952689636"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_Global.hpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_Global.hpp"
+    Type="File"
+    LastWriteTime="133407512952769429"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_CpyOutToMsg.cpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_CpyOutToMsg.cpp"
+    Type="File"
+    LastWriteTime="133407512952849216"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_L\MNG_CpyMsgToInp.cpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_L.MNG_CpyMsgToInp.cpp"
+    Type="File"
+    LastWriteTime="133407512952938978"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\ANSIC.prg"
+    LogicalPath="Libraries.ComTCP.ComTCP_P"
+    Type="Program"
+    LastWriteTime="133407512953367826" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\Main.cpp"
+    LogicalPath="Libraries.ComTCP.ComTCP_P.Main.cpp"
+    Type="File"
+    LastWriteTime="133408217427018226"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\Types.typ"
+    LogicalPath="Libraries.ComTCP.ComTCP_P.Types.typ"
+    Type="File"
+    LastWriteTime="133407512953268099"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\ComTCP_P\Variables.var"
+    LogicalPath="Libraries.ComTCP.ComTCP_P.Variables.var"
+    Type="File"
+    LastWriteTime="133407512953367826"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\MNG_Package.typ"
+    LogicalPath="Libraries.ComTCP.MNG_Package.typ"
+    Type="File"
+    LastWriteTime="133407512953447623"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\ComTCP\MNG_Package.var"
+    LogicalPath="Libraries.ComTCP.MNG_Package.var"
+    Type="File"
+    LastWriteTime="133407512953547358"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsTCP\binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="133407512997124868" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="133407512996965303"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="133407512997045089"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="133407512997114903"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133407513020914018" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133407513020754439"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133407513020834236"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133407513020904047"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsArLog\binary.lby"
+    LogicalPath="Libraries.AsArLog"
+    Type="Library"
+    LastWriteTime="133407513031389304" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsArLog\AsArLog.fun"
+    LogicalPath="Libraries.AsArLog.AsArLog.fun"
+    Type="File"
+    LastWriteTime="133407513031239698"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsArLog\AsArLog.typ"
+    LogicalPath="Libraries.AsArLog.AsArLog.typ"
+    Type="File"
+    LastWriteTime="133407513031309511"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsArLog\AsArLog.var"
+    LogicalPath="Libraries.AsArLog.AsArLog.var"
+    Type="File"
+    LastWriteTime="133407513031379317"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsBrStr\binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="133407513041741651" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="133407513041582075"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="133407513041661861"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="133407513041731665"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpRecipe\Binary.lby"
+    LogicalPath="Libraries.MpRecipe"
+    Type="Library"
+    LastWriteTime="133408275373234371" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpRecipe\MpRecipe.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.typ"
+    Type="File"
+    LastWriteTime="133408275372995009"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeAlarm.typ"
+    Type="File"
+    LastWriteTime="133408275373074798"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpRecipe\MpRecipeError.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeError.typ"
+    Type="File"
+    LastWriteTime="133408275373144596"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpRecipe\MpRecipe.fun"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.fun"
+    Type="File"
+    LastWriteTime="133408275373234371"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="133408275374875094" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="133408275374645703"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="133408275374715512"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="133408275374795310"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133408275374875094"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McBase\binary.lby"
+    LogicalPath="Libraries.McBase"
+    Type="Library"
+    LastWriteTime="133410729789779008" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McBase\McBase.typ"
+    LogicalPath="Libraries.McBase.McBase.typ"
+    Type="File"
+    LastWriteTime="133410729789499418"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McBase\McBase.fun"
+    LogicalPath="Libraries.McBase.McBase.fun"
+    Type="File"
+    LastWriteTime="133410729789589490"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McBase\McBase.var"
+    LogicalPath="Libraries.McBase.McBase.var"
+    Type="File"
+    LastWriteTime="133410729789659302"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McBase\McBaseCfg.typ"
+    LogicalPath="Libraries.McBase.McBaseCfg.typ"
+    Type="File"
+    LastWriteTime="133410729789719142"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTBasics\binary.lby"
+    LogicalPath="Libraries.MTBasics"
+    Type="Library"
+    LastWriteTime="133410729820072544" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTBasics\MTBasics.fun"
+    LogicalPath="Libraries.MTBasics.MTBasics.fun"
+    Type="File"
+    LastWriteTime="133410729819952868"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTBasics\MTBasics.typ"
+    LogicalPath="Libraries.MTBasics.MTBasics.typ"
+    Type="File"
+    LastWriteTime="133410729820012706"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTBasics\MTBasics.var"
+    LogicalPath="Libraries.MTBasics.MTBasics.var"
+    Type="File"
+    LastWriteTime="133410729820062566"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTTypes\binary.lby"
+    LogicalPath="Libraries.MTTypes"
+    Type="Library"
+    LastWriteTime="133410729820684735" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTTypes\MTTypes.fun"
+    LogicalPath="Libraries.MTTypes.MTTypes.fun"
+    Type="File"
+    LastWriteTime="133410729820575035"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTTypes\MTTypes.typ"
+    LogicalPath="Libraries.MTTypes.MTTypes.typ"
+    Type="File"
+    LastWriteTime="133410729820624901"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MTTypes\MTTypes.var"
+    LogicalPath="Libraries.MTTypes.MTTypes.var"
+    Type="File"
+    LastWriteTime="133410729820674765"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\CoTrace\binary.lby"
+    LogicalPath="Libraries.CoTrace"
+    Type="Library"
+    LastWriteTime="133410864431141167" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\CoTrace\CoTrace.fun"
+    LogicalPath="Libraries.CoTrace.CoTrace.fun"
+    Type="File"
+    LastWriteTime="133410864431041770"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\CoTrace\CoTrace.typ"
+    LogicalPath="Libraries.CoTrace.CoTrace.typ"
+    Type="File"
+    LastWriteTime="133410864431091300"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\CoTrace\CoTrace.var"
+    LogicalPath="Libraries.CoTrace.CoTrace.var"
+    Type="File"
+    LastWriteTime="133410864431141167"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsZip\binary.lby"
+    LogicalPath="Libraries.AsZip"
+    Type="Library"
+    LastWriteTime="133410864434180739" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsZip\AsZip.fun"
+    LogicalPath="Libraries.AsZip.AsZip.fun"
+    Type="File"
+    LastWriteTime="133410864434056285"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsZip\AsZip.typ"
+    LogicalPath="Libraries.AsZip.AsZip.typ"
+    Type="File"
+    LastWriteTime="133410864434116126"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\AsZip\AsZip.var"
+    LogicalPath="Libraries.AsZip.AsZip.var"
+    Type="File"
+    LastWriteTime="133410864434180739"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\FileIO\binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="133410864434581198" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="133410864434471490"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="133410864434521356"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="133410864434581198"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpAxis\binary.lby"
+    LogicalPath="Libraries.MpAxis"
+    Type="Library"
+    LastWriteTime="133415123250894812" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpAxis\MpAxis.fun"
+    LogicalPath="Libraries.MpAxis.MpAxis.fun"
+    Type="File"
+    LastWriteTime="133415123250715292"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpAxis\MpAxis.typ"
+    LogicalPath="Libraries.MpAxis.MpAxis.typ"
+    Type="File"
+    LastWriteTime="133415123250805057"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\MpAxis\MpAxisError.typ"
+    LogicalPath="Libraries.MpAxis.MpAxisError.typ"
+    Type="File"
+    LastWriteTime="133415123250894812"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAxis\binary.lby"
+    LogicalPath="Libraries.McAxis"
+    Type="Library"
+    LastWriteTime="133415123252889487" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAxis\McAxis.typ"
+    LogicalPath="Libraries.McAxis.McAxis.typ"
+    Type="File"
+    LastWriteTime="133415123252640149"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAxis\McAxis.fun"
+    LogicalPath="Libraries.McAxis.McAxis.fun"
+    Type="File"
+    LastWriteTime="133415123252719950"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAxis\McAxis.var"
+    LogicalPath="Libraries.McAxis.McAxis.var"
+    Type="File"
+    LastWriteTime="133415123252809696"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAxis\McAxisCfg.typ"
+    LogicalPath="Libraries.McAxis.McAxisCfg.typ"
+    Type="File"
+    LastWriteTime="133415123252889487"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAcpAx\binary.lby"
+    LogicalPath="Libraries.McAcpAx"
+    Type="Library"
+    LastWriteTime="133415229124289554" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAcpAx\McAcpAx.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.typ"
+    Type="File"
+    LastWriteTime="133415229124129981"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAcpAx\McAcpAx.fun"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.fun"
+    Type="File"
+    LastWriteTime="133415229124179846"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAcpAx\McAcpAx.var"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.var"
+    Type="File"
+    LastWriteTime="133415229124229713"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Libraries\McAcpAx\McAcpAxCfg.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAxCfg.typ"
+    Type="File"
+    LastWriteTime="133415229124289554"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Images\Package.pkg"
+    LogicalPath="Images"
+    Type="Package"
+    LastWriteTime="132702292280000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Images\BuR.png"
+    LogicalPath="Images.BuR.png"
+    Type="File"
+    LastWriteTime="131702571020000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Images\BackGround.png"
+    LogicalPath="Images.BackGround.png"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Images\MotorShaft.svg"
+    LogicalPath="Images.MotorShaft.svg"
+    Type="File"
+    LastWriteTime="132702292280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="133403826353320905" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="133404845507485792" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="133404867773464270" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\Package.pkg"
+    LogicalPath="mappView.Widgets.Training"
+    Type="Package"
+    LastWriteTime="133404869400658381" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\Description.widgetlibrary"
+    LogicalPath="mappView.Widgets.Training.Description.widgetlibrary"
+    Type="File"
+    LastWriteTime="133404868168417862"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\Resources\Package.pkg"
+    LogicalPath="mappView.Widgets.Training.Resources"
+    Type="Package"
+    LastWriteTime="133404867588233508" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Widgets.Training.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133404867588133676" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Widgets.Training.Resources.Media"
+    Type="Package"
+    LastWriteTime="133404867588223422" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Widgets\Training\NI_Celsius.derivedwidget"
+    LogicalPath="mappView.Widgets.Training.NI_Celsius.derivedwidget"
+    Type="File"
+    LastWriteTime="133404869400638418"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="133403826032237847" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133404034858510378" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Texts\LocalizableTexts.tmx"
+    LogicalPath="mappView.Resources.Texts.LocalizableTexts.tmx"
+    Type="File"
+    LastWriteTime="133409976479950221"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133403826032048355" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="133403962445373822" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1"
+    Type="Package"
+    LastWriteTime="133403962445353779" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.BuRTheme1.theme"
+    Type="File"
+    LastWriteTime="133403962444542419"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease"
+    Type="Package"
+    LastWriteTime="133403962445343803" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.BuRTheme1.stylesset"
+    Type="File"
+    LastWriteTime="133403962444692019"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133403962444751861"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.System.styles"
+    Type="File"
+    LastWriteTime="133403962444821796"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133403962444881515"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133403962444941353"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133403962445001194"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133403962445051061"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133403962445110901"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133403962445160768"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133403962445224125"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133403962445283960"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133403962445343803"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="133409743872691380" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\warning-sign-icon-vector-24719620.jpg"
+    LogicalPath="mappView.Resources.Media.warning-sign-icon-vector-24719620.jpg"
+    Type="File"
+    LastWriteTime="133404694126746506"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\warn.jpg"
+    LogicalPath="mappView.Resources.Media.warn.jpg"
+    Type="File"
+    LastWriteTime="133404702785388643"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib"
+    Type="Package"
+    LastWriteTime="133404706026940696" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
+    Type="Package"
+    LastWriteTime="133404706016449977" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
+    Type="File"
+    LastWriteTime="133404706016240553"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
+    Type="File"
+    LastWriteTime="133404706016310349"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
+    Type="File"
+    LastWriteTime="133404706016370190"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
+    Type="File"
+    LastWriteTime="133404706016449977"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
+    Type="Package"
+    LastWriteTime="133404706017415352" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
+    Type="File"
+    LastWriteTime="133404706016619534"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
+    Type="File"
+    LastWriteTime="133404706016689348"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
+    Type="File"
+    LastWriteTime="133404706016759157"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
+    Type="File"
+    LastWriteTime="133404706016828975"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
+    Type="File"
+    LastWriteTime="133404706016898786"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
+    Type="File"
+    LastWriteTime="133404706016978579"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
+    Type="File"
+    LastWriteTime="133404706017048380"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
+    Type="File"
+    LastWriteTime="133404706017118197"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
+    Type="File"
+    LastWriteTime="133404706017188027"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
+    Type="File"
+    LastWriteTime="133404706017267799"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
+    Type="File"
+    LastWriteTime="133404706017337620"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
+    Type="File"
+    LastWriteTime="133404706017405697"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
+    Type="Package"
+    LastWriteTime="133404706017714559" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
+    Type="File"
+    LastWriteTime="133404706017574935"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
+    Type="File"
+    LastWriteTime="133404706017644744"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
+    Type="File"
+    LastWriteTime="133404706017704585"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
+    Type="Package"
+    LastWriteTime="133404706018023731" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
+    Type="File"
+    LastWriteTime="133404706017884110"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
+    Type="File"
+    LastWriteTime="133404706017953921"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
+    Type="File"
+    LastWriteTime="133404706018023731"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
+    Type="Package"
+    LastWriteTime="133404706018193272" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
+    Type="File"
+    LastWriteTime="133404706018193272"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
+    Type="Package"
+    LastWriteTime="133404706018482512" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
+    Type="File"
+    LastWriteTime="133404706018353176"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
+    Type="File"
+    LastWriteTime="133404706018412691"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
+    Type="File"
+    LastWriteTime="133404706018482512"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
+    Type="Package"
+    LastWriteTime="133404706020187964" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
+    Type="File"
+    LastWriteTime="133404706018662030"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
+    Type="File"
+    LastWriteTime="133404706018731834"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
+    Type="File"
+    LastWriteTime="133404706018801657"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
+    Type="File"
+    LastWriteTime="133404706018871477"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
+    Type="File"
+    LastWriteTime="133404706018951258"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
+    Type="File"
+    LastWriteTime="133404706019011107"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
+    Type="File"
+    LastWriteTime="133404706019080911"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
+    Type="File"
+    LastWriteTime="133404706019150725"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
+    Type="File"
+    LastWriteTime="133404706019210569"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
+    Type="File"
+    LastWriteTime="133404706019270404"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
+    Type="File"
+    LastWriteTime="133404706019330244"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
+    Type="File"
+    LastWriteTime="133404706019400059"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
+    Type="File"
+    LastWriteTime="133404706019469872"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
+    Type="File"
+    LastWriteTime="133404706019529715"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
+    Type="File"
+    LastWriteTime="133404706019609498"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
+    Type="File"
+    LastWriteTime="133404706019679307"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
+    Type="File"
+    LastWriteTime="133404706019739161"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
+    Type="File"
+    LastWriteTime="133404706019809111"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
+    Type="File"
+    LastWriteTime="133404706019878794"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
+    Type="File"
+    LastWriteTime="133404706019958565"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
+    Type="File"
+    LastWriteTime="133404706020028377"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
+    Type="File"
+    LastWriteTime="133404706020108175"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
+    Type="File"
+    LastWriteTime="133404706020177988"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File"
+    Type="Package"
+    LastWriteTime="133404706020646726" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
+    Type="File"
+    LastWriteTime="133404706020367472"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
+    Type="File"
+    LastWriteTime="133404706020437285"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
+    Type="File"
+    LastWriteTime="133404706020507116"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
+    Type="File"
+    LastWriteTime="133404706020576914"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
+    Type="File"
+    LastWriteTime="133404706020646726"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
+    Type="Package"
+    LastWriteTime="133404706021703905" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
+    Type="File"
+    LastWriteTime="133404706020826590"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
+    Type="File"
+    LastWriteTime="133404706020906048"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
+    Type="File"
+    LastWriteTime="133404706020985836"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
+    Type="File"
+    LastWriteTime="133404706021055650"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
+    Type="File"
+    LastWriteTime="133404706021115493"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
+    Type="File"
+    LastWriteTime="133404706021195271"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
+    Type="File"
+    LastWriteTime="133404706021255109"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
+    Type="File"
+    LastWriteTime="133404706021324923"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
+    Type="File"
+    LastWriteTime="133404706021394740"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
+    Type="File"
+    LastWriteTime="133404706021474525"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
+    Type="File"
+    LastWriteTime="133404706021544340"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
+    Type="File"
+    LastWriteTime="133404706021614162"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
+    Type="File"
+    LastWriteTime="133404706021693941"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media"
+    Type="Package"
+    LastWriteTime="133404706022441948" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
+    Type="File"
+    LastWriteTime="133404706021863483"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
+    Type="File"
+    LastWriteTime="133404706021923324"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
+    Type="File"
+    LastWriteTime="133404706021993140"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
+    Type="File"
+    LastWriteTime="133404706022052979"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
+    Type="File"
+    LastWriteTime="133404706022112822"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
+    Type="File"
+    LastWriteTime="133404706022182628"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
+    Type="File"
+    LastWriteTime="133404706022242478"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
+    Type="File"
+    LastWriteTime="133404706022302317"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
+    Type="File"
+    LastWriteTime="133404706022362158"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
+    Type="File"
+    LastWriteTime="133404706022431973"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
+    Type="Package"
+    LastWriteTime="133404706023080242" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
+    Type="File"
+    LastWriteTime="133404706022601510"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
+    Type="File"
+    LastWriteTime="133404706022671348"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
+    Type="File"
+    LastWriteTime="133404706022731170"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
+    Type="File"
+    LastWriteTime="133404706022791009"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
+    Type="File"
+    LastWriteTime="133404706022860827"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
+    Type="File"
+    LastWriteTime="133404706022920672"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
+    Type="File"
+    LastWriteTime="133404706023000458"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
+    Type="File"
+    LastWriteTime="133404706023070273"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
+    Type="Package"
+    LastWriteTime="133404706026202679" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
+    Type="File"
+    LastWriteTime="133404706023249848"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
+    Type="File"
+    LastWriteTime="133404706023319671"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
+    Type="File"
+    LastWriteTime="133404706023389814"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
+    Type="File"
+    LastWriteTime="133404706023459594"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
+    Type="File"
+    LastWriteTime="133404706023529446"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
+    Type="File"
+    LastWriteTime="133404706023609235"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
+    Type="File"
+    LastWriteTime="133404706023668712"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
+    Type="File"
+    LastWriteTime="133404706023738543"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
+    Type="File"
+    LastWriteTime="133404706023808353"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
+    Type="File"
+    LastWriteTime="133404706023878164"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
+    Type="File"
+    LastWriteTime="133404706023947975"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
+    Type="File"
+    LastWriteTime="133404706024007820"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
+    Type="File"
+    LastWriteTime="133404706024087601"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
+    Type="File"
+    LastWriteTime="133404706024157416"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
+    Type="File"
+    LastWriteTime="133404706024222417"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
+    Type="File"
+    LastWriteTime="133404706024292227"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
+    Type="File"
+    LastWriteTime="133404706024362045"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
+    Type="File"
+    LastWriteTime="133404706024431860"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
+    Type="File"
+    LastWriteTime="133404706024501673"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
+    Type="File"
+    LastWriteTime="133404706024571491"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
+    Type="File"
+    LastWriteTime="133404706024641304"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
+    Type="File"
+    LastWriteTime="133404706024711113"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
+    Type="File"
+    LastWriteTime="133404706024780928"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
+    Type="File"
+    LastWriteTime="133404706024850744"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
+    Type="File"
+    LastWriteTime="133404706024920551"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
+    Type="File"
+    LastWriteTime="133404706024990371"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
+    Type="File"
+    LastWriteTime="133404706025060179"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
+    Type="File"
+    LastWriteTime="133404706025129998"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
+    Type="File"
+    LastWriteTime="133404706025199827"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
+    Type="File"
+    LastWriteTime="133404706025269626"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
+    Type="File"
+    LastWriteTime="133404706025339443"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
+    Type="File"
+    LastWriteTime="133404706025419225"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
+    Type="File"
+    LastWriteTime="133404706025489035"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
+    Type="File"
+    LastWriteTime="133404706025558850"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
+    Type="File"
+    LastWriteTime="133404706025634182"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
+    Type="File"
+    LastWriteTime="133404706025703988"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
+    Type="File"
+    LastWriteTime="133404706025783788"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
+    Type="File"
+    LastWriteTime="133404706025863572"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
+    Type="File"
+    LastWriteTime="133404706025943359"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
+    Type="File"
+    LastWriteTime="133404706026013176"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
+    Type="File"
+    LastWriteTime="133404706026092973"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
+    Type="File"
+    LastWriteTime="133404706026192704"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User"
+    Type="Package"
+    LastWriteTime="133404706026930724" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
+    Type="File"
+    LastWriteTime="133404706026372213"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
+    Type="File"
+    LastWriteTime="133404706026442025"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
+    Type="File"
+    LastWriteTime="133404706026511842"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
+    Type="File"
+    LastWriteTime="133404706026581652"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
+    Type="File"
+    LastWriteTime="133404706026661440"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
+    Type="File"
+    LastWriteTime="133404706026721281"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
+    Type="File"
+    LastWriteTime="133404706026791095"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
+    Type="File"
+    LastWriteTime="133404706026860909"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
+    Type="File"
+    LastWriteTime="133404706026930724"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\ezgif.com-crop.gif"
+    LogicalPath="mappView.Resources.Media.ezgif.com-crop.gif"
+    Type="File"
+    LastWriteTime="133408116880505597"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\Capture.GIF"
+    LogicalPath="mappView.Resources.Media.Capture.GIF"
+    Type="File"
+    LastWriteTime="133408133336571639"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\download (1).png"
+    LogicalPath="mappView.Resources.Media.download (1).png"
+    Type="File"
+    LastWriteTime="133409217931521262"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Resources\Media\BW_Papersystems_logo_w_Square_icon_(transparent).png"
+    LogicalPath="mappView.Resources.Media.BW_Papersystems_logo_w_Square_icon_(transparent).png"
+    Type="File"
+    LastWriteTime="133409743872621571"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="133403826353300937" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="133415045963896876" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="133409127725892228" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AreaContents\ContentTop.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.ContentTop.content"
+    Type="File"
+    LastWriteTime="133409744365616694"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AreaContents\ContentLeft.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.ContentLeft.content"
+    Type="File"
+    LastWriteTime="133409188254995553"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AreaContents\ContentBottom.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.ContentBottom.content"
+    Type="File"
+    LastWriteTime="133409128091129268"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.MainPage"
+    Type="Package"
+    LastWriteTime="133403886321102672" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\MainPage\Main.page"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Main.page"
+    Type="File"
+    LastWriteTime="133403949014503281"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\MainPage\ContentMain.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.ContentMain.content"
+    Type="File"
+    LastWriteTime="133409940046407860"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ServicePage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.ServicePage"
+    Type="Package"
+    LastWriteTime="133403886533022154" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ServicePage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.ServicePage.Page.page"
+    Type="File"
+    LastWriteTime="133403944263590529"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ServicePage\ContentService.content"
+    LogicalPath="mappView.Visualization.Pages.ServicePage.ContentService.content"
+    Type="File"
+    LastWriteTime="133404883502717718"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AlarmPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AlarmPage"
+    Type="Package"
+    LastWriteTime="133408039150084591" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AlarmPage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.AlarmPage.Page.page"
+    Type="File"
+    LastWriteTime="133403944272869816"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\AlarmPage\ContentAlarm.content"
+    LogicalPath="mappView.Visualization.Pages.AlarmPage.ContentAlarm.content"
+    Type="File"
+    LastWriteTime="133409918425609585"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\HDAChartPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.HDAChartPage"
+    Type="Package"
+    LastWriteTime="133404736391328334" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\HDAChartPage\Main.page"
+    LogicalPath="mappView.Visualization.Pages.HDAChartPage.Main.page"
+    Type="File"
+    LastWriteTime="133404737267104511"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\HDAChartPage\ContentHDA.content"
+    LogicalPath="mappView.Visualization.Pages.HDAChartPage.ContentHDA.content"
+    Type="File"
+    LastWriteTime="133409846340539293"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ParameterPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.ParameterPage"
+    Type="Package"
+    LastWriteTime="133408061729234297" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ParameterPage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.ParameterPage.Page.page"
+    Type="File"
+    LastWriteTime="133408063174075970"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Pages\ParameterPage\ContentParameter.content"
+    LogicalPath="mappView.Visualization.Pages.ParameterPage.ContentParameter.content"
+    Type="File"
+    LastWriteTime="133409936108324239"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="133403826352668821" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="133403826352752444" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="133404845631391059" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Layouts\MyLayout.layout"
+    LogicalPath="mappView.Visualization.Layouts.MyLayout.layout"
+    Type="File"
+    LastWriteTime="133409129851311106"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Layouts\DiaLayout.layout"
+    LogicalPath="mappView.Visualization.Layouts.DiaLayout.layout"
+    Type="File"
+    LastWriteTime="133404847058026045"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="133404844690692546" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="133403826353011496" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Dialogs\Dialog\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.Dialog"
+    Type="Package"
+    LastWriteTime="133404847826377329" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Dialogs\Dialog\Dialog.dialog"
+    LogicalPath="mappView.Visualization.Dialogs.Dialog.Dialog.dialog"
+    Type="File"
+    LastWriteTime="133404848119099309"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Dialogs\Dialog\ContentDiag.content"
+    LogicalPath="mappView.Visualization.Dialogs.Dialog.ContentDiag.content"
+    Type="File"
+    LastWriteTime="133404848118438267"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="133403826353300937" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133403826353191277" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133403826353290974" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Project.language"
+    LogicalPath="Project.language"
+    Type="File"
+    LastWriteTime="133404035073020674"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\IEC.prg"
+    LogicalPath="BoxLift"
+    Type="Program"
+    LastWriteTime="133409157106454619" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Cyclic.st"
+    LogicalPath="BoxLift.Cyclic.st"
+    Type="File"
+    LastWriteTime="133416848397915998"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Init.st"
+    LogicalPath="BoxLift.Init.st"
+    Type="File"
+    LastWriteTime="133409895205458753"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Exit.st"
+    LogicalPath="BoxLift.Exit.st"
+    Type="File"
+    LastWriteTime="133409982022757611"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Types.typ"
+    LogicalPath="BoxLift.Types.typ"
+    Type="File"
+    LastWriteTime="133416847392159518"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\BoxLift\Variables.var"
+    LogicalPath="BoxLift.Variables.var"
+    Type="File"
+    LastWriteTime="133416848398304942"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\IEC.prg"
+    LogicalPath="AlarmBlink"
+    Type="Program"
+    LastWriteTime="133408136038085671" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Cyclic.st"
+    LogicalPath="AlarmBlink.Cyclic.st"
+    Type="File"
+    LastWriteTime="133408158908374258"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Init.st"
+    LogicalPath="AlarmBlink.Init.st"
+    Type="File"
+    LastWriteTime="133408136037776488"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Exit.st"
+    LogicalPath="AlarmBlink.Exit.st"
+    Type="File"
+    LastWriteTime="133408136037876234"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Types.typ"
+    LogicalPath="AlarmBlink.Types.typ"
+    Type="File"
+    LastWriteTime="133408136037975957"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\AlarmBlink\Variables.var"
+    LogicalPath="AlarmBlink.Variables.var"
+    Type="File"
+    LastWriteTime="133408138994414387"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\IEC.prg"
+    LogicalPath="RecipeMgmt"
+    Type="Program"
+    LastWriteTime="133408273526282730" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Cyclic.ld"
+    LogicalPath="RecipeMgmt.Cyclic.ld"
+    Type="File"
+    LastWriteTime="133408981017907920"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Init.ld"
+    LogicalPath="RecipeMgmt.Init.ld"
+    Type="File"
+    LastWriteTime="133408273525883793"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Exit.ld"
+    LogicalPath="RecipeMgmt.Exit.ld"
+    Type="File"
+    LastWriteTime="133408273525983508"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Types.typ"
+    LogicalPath="RecipeMgmt.Types.typ"
+    Type="File"
+    LastWriteTime="133408273526073280"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\Variables.var"
+    LogicalPath="RecipeMgmt.Variables.var"
+    Type="File"
+    LastWriteTime="133415060735533210"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\RecipeMgmt\RecipeStateMachine.st"
+    LogicalPath="RecipeMgmt.RecipeStateMachine.st"
+    Type="File"
+    LastWriteTime="133408273526272754"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Cam\Cam.dob"
+    LogicalPath="Cam"
+    Type="DataObject"
+    LastWriteTime="133415121716469889" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Cam\Cam.cam"
+    LogicalPath="Cam.Cam.cam"
+    Type="File"
+    LastWriteTime="133416082037850828"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\IEC.prg"
+    LogicalPath="Axis1ST"
+    Type="Program"
+    LastWriteTime="133415236287054660" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Cyclic.st"
+    LogicalPath="Axis1ST.Cyclic.st"
+    Type="File"
+    LastWriteTime="133416781309684860"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Init.st"
+    LogicalPath="Axis1ST.Init.st"
+    Type="File"
+    LastWriteTime="133416116728698011"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Exit.st"
+    LogicalPath="Axis1ST.Exit.st"
+    Type="File"
+    LastWriteTime="133415925011945946"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Types.typ"
+    LogicalPath="Axis1ST.Types.typ"
+    Type="File"
+    LastWriteTime="133415236286964898"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Axis1ST\Variables.var"
+    LogicalPath="Axis1ST.Variables.var"
+    Type="File"
+    LastWriteTime="133416813927792071"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\IEC.prg"
+    LogicalPath="PowerON"
+    Type="Program"
+    LastWriteTime="133416117305710249" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Cyclic.st"
+    LogicalPath="PowerON.Cyclic.st"
+    Type="File"
+    LastWriteTime="133416119063413161"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Init.st"
+    LogicalPath="PowerON.Init.st"
+    Type="File"
+    LastWriteTime="133416117305361163"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Exit.st"
+    LogicalPath="PowerON.Exit.st"
+    Type="File"
+    LastWriteTime="133416117305470889"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Types.typ"
+    LogicalPath="PowerON.Types.typ"
+    Type="File"
+    LastWriteTime="133416117305590573"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\PowerON\Variables.var"
+    LogicalPath="PowerON.Variables.var"
+    Type="File"
+    LastWriteTime="133416119595411454"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\IEC.prg"
+    LogicalPath="CamAutomat"
+    Type="Program"
+    LastWriteTime="133416791002551260" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Cyclic.st"
+    LogicalPath="CamAutomat.Cyclic.st"
+    Type="File"
+    LastWriteTime="133416840115553694"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Init.st"
+    LogicalPath="CamAutomat.Init.st"
+    Type="File"
+    LastWriteTime="133416843007718131"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Exit.st"
+    LogicalPath="CamAutomat.Exit.st"
+    Type="File"
+    LastWriteTime="133416842848780733"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Types.typ"
+    LogicalPath="CamAutomat.Types.typ"
+    Type="File"
+    LastWriteTime="133416791002471464"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\CamAutomat\Variables.var"
+    LogicalPath="CamAutomat.Variables.var"
+    Type="File"
+    LastWriteTime="133416814082794706"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Cam3\Cam.dob"
+    LogicalPath="Cam3"
+    Type="DataObject"
+    LastWriteTime="133416811798358650" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\Cam3\Cam3.cam"
+    LogicalPath="Cam3.Cam3.cam"
+    Type="File"
+    LastWriteTime="133416811622252196"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\IEC.prg"
+    LogicalPath="LDMPAccess"
+    Type="Program"
+    LastWriteTime="133416999532919909" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Cyclic.ld"
+    LogicalPath="LDMPAccess.Cyclic.ld"
+    Type="File"
+    LastWriteTime="133416999532530958"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Init.ld"
+    LogicalPath="LDMPAccess.Init.ld"
+    Type="File"
+    LastWriteTime="133416999532630682"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Exit.ld"
+    LogicalPath="LDMPAccess.Exit.ld"
+    Type="File"
+    LastWriteTime="133416999532720437"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Types.typ"
+    LogicalPath="LDMPAccess.Types.typ"
+    Type="File"
+    LastWriteTime="133416999532820174"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Logical\LDMPAccess\Variables.var"
+    LogicalPath="LDMPAccess.Variables.var"
+    Type="File"
+    LastWriteTime="133417017843323179"
+    Private="true" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133419400010993628"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Cpu.pkg"
+    LogicalPath="Config1.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="133418763203350907" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Cpu.sw"
+    LogicalPath="Config1.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="133417012329273187"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Cpu.per"
+    LogicalPath="Config1.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\IoMap.iom"
+    LogicalPath="Config1.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mapp\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mapp"
+    Type="Package"
+    LastWriteTime="132702292320000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappView"
+    Type="Package"
+    LastWriteTime="133415047590816231" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.X20CP1586.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="133404725006924963"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\Visualizat.vis"
+    LogicalPath="Config1.X20CP1586.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="133415047590935722"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\Navigation.nav"
+    LogicalPath="Config1.X20CP1586.mappView.Navigation.nav"
+    Type="File"
+    LastWriteTime="133403953949986376"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentMain.binding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentMain.binding"
+    Type="File"
+    LastWriteTime="133409178894549324"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentMain.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentMain.eventbinding"
+    Type="File"
+    LastWriteTime="133409177568643753"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentHDA.binding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentHDA.binding"
+    Type="File"
+    LastWriteTime="133409834535926001"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentHDA.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentHDA.eventbinding"
+    Type="File"
+    LastWriteTime="133404759478710847"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentUp.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentUp.eventbinding"
+    Type="File"
+    LastWriteTime="133404852213255165"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentParameter.binding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentParameter.binding"
+    Type="File"
+    LastWriteTime="133408977407265005"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentParameter.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentParameter.eventbinding"
+    Type="File"
+    LastWriteTime="133408978544286901"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentAlarm.binding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentAlarm.binding"
+    Type="File"
+    LastWriteTime="133409918425649479"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentDiag.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentDiag.eventbinding"
+    Type="File"
+    LastWriteTime="133409125564566386"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappView\ContentUp.binding"
+    LogicalPath="Config1.X20CP1586.mappView.ContentUp.binding"
+    Type="File"
+    LastWriteTime="133409232156185057"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity"
+    Type="Package"
+    LastWriteTime="132702292320000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133403971906207041" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="133415062741886298"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.TextSystem"
+    Type="Package"
+    LastWriteTime="133404037266034629" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\TextSystem\TC.textconfig"
+    LogicalPath="Config1.X20CP1586.TextSystem.TC.textconfig"
+    Type="File"
+    LastWriteTime="133404037551103220"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.UnitSystem"
+    Type="Package"
+    LastWriteTime="132702292320000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132702292320000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133404015289491951"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133409943019017342"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132702292300000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132702292320000000" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\PvMap.vvm"
+    LogicalPath="Config1.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133408244461068790"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappServices"
+    Type="Package"
+    LastWriteTime="133408275337932751" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappServices\Config.mprecipecsv"
+    LogicalPath="Config1.X20CP1586.mappServices.Config.mprecipecsv"
+    Type="File"
+    LastWriteTime="133408275599037420"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappMotion"
+    Type="Package"
+    LastWriteTime="133416810413695022" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_1.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_1.axis"
+    Type="File"
+    LastWriteTime="133416796356168494"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_2.camlist"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_2.camlist"
+    Type="File"
+    LastWriteTime="133415272382772852"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_3.axisfeature"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_3.axisfeature"
+    Type="File"
+    LastWriteTime="133416810886609416"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappMotion\Config_4.camlist"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_4.camlist"
+    Type="File"
+    LastWriteTime="133416810700858741"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappCockpit"
+    Type="Package"
+    LastWriteTime="133415233637962444" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\X20CP1586\mappCockpit\Settings.mcocfg"
+    LogicalPath="Config1.X20CP1586.mappCockpit.Settings.mcocfg"
+    Type="File"
+    LastWriteTime="133415234192768150"
+    Private="false" />
+  <Object
+    Path="C:\projects\ShowCase2Mo410Test\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132702292300000000"
+    Private="false" />
+</Objects>

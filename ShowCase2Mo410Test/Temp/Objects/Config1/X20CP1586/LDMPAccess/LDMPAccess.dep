@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/LDMPAccess/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/McBase/McBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/McAxis/McAxis.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxisError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.fun

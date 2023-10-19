@@ -1,0 +1,11 @@
+@import "mixins.scss";
+#ContentDiag_Login1 {	@include elemWidth(300);
+}
+#ContentDiag_Login1 {	@include elemHeight(160);
+}
+#ContentDiag_Login1 {	@include elemTop(67);
+}
+#ContentDiag_Login1 {	@include elemLeft(71);
+}
+#ContentDiag_Login1 {	z-index: 0;
+}

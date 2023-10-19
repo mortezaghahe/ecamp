@@ -1,0 +1,15 @@
+
+#parent_mCo_logo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: var(--main-black);
+    background-image: url(../images/Background.png);
+    background-size: cover;
+}
+
+#mCo_logo {
+    align-self: flex-end;
+    margin: 4%;
+    width: 100%;
+}

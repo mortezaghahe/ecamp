@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentUp">
+    <EventBinding id="ContentUp.LoginButton1.Click">
+      <Source type="widgets.brease.LoginButton.Event" event="Click" refId="ContentUp_LoginButton1" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="dialog_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

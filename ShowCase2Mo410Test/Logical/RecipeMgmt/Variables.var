@@ -1,0 +1,14 @@
+VAR
+	State : State_enum;
+	uiLoad : BOOL;
+	uiSave : BOOL;
+	sDeviceName : STRING[255] := 'SIM_Recipes';
+	sFileName : STRING[255] := 'recipe1';
+	sVariableName : STRING[255] := 'gSiPhysics';
+	MpRecipeCsv_0 : MpRecipeCsv;
+	MpRecipeRegPar_0 : MpRecipeRegPar;
+
+
+	RecipeError : BOOL;
+	ErrorReset : BOOL;
+END_VAR

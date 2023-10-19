@@ -1,0 +1,4 @@
+VAR
+	TON_DelayDo1 : TON;
+	DelayBlink : TIME := T#500ms;
+END_VAR

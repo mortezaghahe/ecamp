@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="CamList_3" Type="camlist">
+    <Group ID="Row[1]">
+      <Property ID="CamName" Value="Cam3" />
+      <Property ID="CamID" Value="3" />
+      <Property ID="Description" />
+    </Group>
+  </Element>
+</Configuration>

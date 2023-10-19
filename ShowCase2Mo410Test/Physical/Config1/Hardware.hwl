@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
+    <Module Name="6PPT50.0702-10B" Type="6PPT50.0702-10B" X="100" Y="-56" />
+  </Modules>
+  <Links>
+    <Link From="X20CP1586" To="6PPT50.0702-10B" FromPort="IF2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="132" Y="187" />
+      <Point X="132" Y="187" />
+      <Point X="132" Y="200" />
+      <Point X="132" Y="205" />
+      <Point X="95" Y="205" />
+      <Point X="95" Y="95" />
+      <Point X="168.950012" Y="95" />
+      <Point X="168.950012" Y="51" />
+      <Point X="168.950012" Y="46" />
+      <Point X="168.950012" Y="46" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

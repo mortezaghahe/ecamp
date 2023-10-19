@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentHDA" height="522" width="598" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="5" left="12" width="583" height="221" zIndex="0" updateChartTime="10" borderStyle="none">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" fontSize="12px" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" timeSpan="120" fontSize="12px" />
+        </xAxis>
+        <graph>
+          <Element id="graph1" yAxisReference="yAxis1" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="freeze" top="201" left="361" zIndex="1" text="Freeze" style="Command" />
+    <Widget xsi:type="widgets.brease.Button" id="Play" top="200" left="469" zIndex="2" text="Play" style="Command" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="78" left="-45" width="124" zIndex="3" text="$IAT/boxperm" textAlign="center" rotation="270deg" fontSize="13px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label12" top="186" left="237" width="93" height="19" zIndex="4" text="$IAT/time" textAlign="center" rotation="0deg" fontSize="13px" />
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart1" top="261" left="17" width="333" height="236" zIndex="5" tickLabelXRotation="330deg" xAxisHeight="60" yAxisWidth="30" opacity="1">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem1" zIndex="0" maxValue="20" text="$IAT/LowSpeed" />
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem2" zIndex="1" maxValue="20" text="$IAT/mediumspeed" />
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem3" zIndex="2" maxValue="20" text="$IAT/highspeed" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="233" left="52" width="224" zIndex="6" text="$IAT/boxperm_1" textAlign="center" rotation="0deg" fontSize="13px" />
+  </Widgets>
+</Content>

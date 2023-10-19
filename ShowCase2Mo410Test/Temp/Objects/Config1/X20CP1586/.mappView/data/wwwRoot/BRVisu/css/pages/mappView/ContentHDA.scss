@@ -1,0 +1,107 @@
+@import "mixins.scss";
+#ContentHDA_OnlineChartHDA1 {	@include elemTop(5);
+}
+#ContentHDA_OnlineChartHDA1 {	@include elemLeft(12);
+}
+#ContentHDA_OnlineChartHDA1 {	@include elemWidth(583);
+}
+#ContentHDA_OnlineChartHDA1 {	@include elemHeight(221);
+}
+#ContentHDA_OnlineChartHDA1 {	z-index: 0;
+}
+#ContentHDA_OnlineChartHDA1 {	border-style: none;
+}
+#ContentHDA_OnlineChartHDA1_yAxis_yAxis1 {	& .yAxisFontSize {
+		font-size: 12px;
+	}
+}
+#ContentHDA_OnlineChartHDA1_xAxis_xAxis1 {	& .xAxisFontSize {
+		font-size: 12px;
+	}
+}
+#ContentHDA_freeze {	@include elemAutoWidth(100);
+}
+#ContentHDA_freeze {	@include elemAutoHeight(30);
+}
+#ContentHDA_freeze {	@include elemTop(201);
+}
+#ContentHDA_freeze {	@include elemLeft(361);
+}
+#ContentHDA_freeze {	z-index: 1;
+}
+#ContentHDA_Play {	@include elemAutoWidth(100);
+}
+#ContentHDA_Play {	@include elemAutoHeight(30);
+}
+#ContentHDA_Play {	@include elemTop(200);
+}
+#ContentHDA_Play {	@include elemLeft(469);
+}
+#ContentHDA_Play {	z-index: 2;
+}
+#ContentHDA_Label11 {	@include elemAutoHeight(30);
+}
+#ContentHDA_Label11 {	@include elemTop(78);
+}
+#ContentHDA_Label11 {	@include elemLeft(-45);
+}
+#ContentHDA_Label11 {	@include elemAutoWidth(124);
+}
+#ContentHDA_Label11 {	z-index: 3;
+}
+#ContentHDA_Label11 {	@include text-alignment-all('center');
+}
+#ContentHDA_Label11 {	@include rotate(270deg);
+}
+#ContentHDA_Label11 {	font-size: 13px;
+}
+#ContentHDA_Label12 {	@include elemTop(186);
+}
+#ContentHDA_Label12 {	@include elemLeft(237);
+}
+#ContentHDA_Label12 {	@include elemAutoWidth(93);
+}
+#ContentHDA_Label12 {	@include elemAutoHeight(19);
+}
+#ContentHDA_Label12 {	z-index: 4;
+}
+#ContentHDA_Label12 {	@include text-alignment-all('center');
+}
+#ContentHDA_Label12 {	@include rotate(0deg);
+}
+#ContentHDA_Label12 {	font-size: 13px;
+}
+#ContentHDA_BarChart1 {	@include elemTop(261);
+}
+#ContentHDA_BarChart1 {	@include elemLeft(17);
+}
+#ContentHDA_BarChart1 {	@include elemWidth(333);
+}
+#ContentHDA_BarChart1 {	@include elemHeight(236);
+}
+#ContentHDA_BarChart1 {	z-index: 5;
+}
+#ContentHDA_BarChart1 {	opacity: 1;
+}
+#ContentHDA_BarChartItem1 {	z-index: 0;
+}
+#ContentHDA_BarChartItem2 {	z-index: 1;
+}
+#ContentHDA_BarChartItem3 {	z-index: 2;
+}
+#ContentHDA_Label13 {	@include elemAutoHeight(30);
+}
+#ContentHDA_Label13 {	@include elemTop(233);
+}
+#ContentHDA_Label13 {	@include elemLeft(52);
+}
+#ContentHDA_Label13 {	@include elemAutoWidth(224);
+}
+#ContentHDA_Label13 {	z-index: 6;
+}
+#ContentHDA_Label13 {	@include text-alignment-all('center');
+}
+#ContentHDA_Label13 {	@include rotate(0deg);
+}
+#ContentHDA_Label13 {	font-size: 13px;
+}

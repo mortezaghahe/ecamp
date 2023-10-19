@@ -1,0 +1,101 @@
+@import "mixins.scss";
+#ContentUp_MeasurementSystemSelector1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#ContentUp_MeasurementSystemSelector1 {	@include elemTop(42);
+}
+#ContentUp_MeasurementSystemSelector1 {	@include elemLeft(9);
+}
+#ContentUp_MeasurementSystemSelector1 {	&.DropDownBoxView {
+		@include elemWidth(119);
+	}
+}
+#ContentUp_MeasurementSystemSelector1 {	z-index: 0;
+}
+#ContentUp_LoginInfo1 {	@include elemAutoWidth(120);
+}
+#ContentUp_LoginInfo1 {	@include elemAutoHeight(30);
+}
+#ContentUp_LoginInfo1 {	@include elemTop(26);
+}
+#ContentUp_LoginInfo1 {	@include elemLeft(146);
+}
+#ContentUp_LoginInfo1 {	z-index: 1;
+}
+#ContentUp_LogoutButton1 {	@include elemAutoHeight(30);
+}
+#ContentUp_LogoutButton1 {	@include elemTop(42);
+}
+#ContentUp_LogoutButton1 {	@include elemLeft(647);
+}
+#ContentUp_LogoutButton1 {	@include elemAutoWidth(146);
+}
+#ContentUp_LogoutButton1 {	z-index: 2;
+}
+#ContentUp_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#ContentUp_LanguageSelector1 {	@include elemTop(6);
+}
+#ContentUp_LanguageSelector1 {	@include elemLeft(9);
+}
+#ContentUp_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemWidth(119);
+	}
+}
+#ContentUp_LanguageSelector1 {	z-index: 3;
+}
+#ContentUp_LoginButton1 {	@include elemAutoHeight(30);
+}
+#ContentUp_LoginButton1 {	@include elemTop(6);
+}
+#ContentUp_LoginButton1 {	@include elemLeft(647);
+}
+#ContentUp_LoginButton1 {	@include elemAutoWidth(146);
+}
+#ContentUp_LoginButton1 {	z-index: 4;
+}
+#ContentUp_DateTimeOutput1 {	@include elemAutoHeight(30);
+}
+#ContentUp_DateTimeOutput1 {	@include elemTop(5);
+}
+#ContentUp_DateTimeOutput1 {	@include elemLeft(146);
+}
+#ContentUp_DateTimeOutput1 {	@include elemAutoWidth(395);
+}
+#ContentUp_DateTimeOutput1 {	z-index: 5;
+}
+#ContentUp_TextOutput1 {	@include elemTop(47);
+}
+#ContentUp_TextOutput1 {	@include elemLeft(146);
+}
+#ContentUp_TextOutput1 {	@include elemAutoWidth(150);
+}
+#ContentUp_TextOutput1 {	@include elemAutoHeight(31);
+}
+#ContentUp_TextOutput1 {	z-index: 6;
+}
+#ContentUp_Image1 {	@include elemTop(4);
+}
+#ContentUp_Image1 {	@include elemLeft(496);
+}
+#ContentUp_Image1 {	@include elemAutoWidth(138);
+}
+#ContentUp_Image1 {	@include elemAutoHeight(40);
+}
+#ContentUp_Image1 {	z-index: 7;
+}
+#ContentUp_TextOutput2 {	@include elemTop(53);
+}
+#ContentUp_TextOutput2 {	@include elemLeft(286);
+}
+#ContentUp_TextOutput2 {	@include elemAutoWidth(211);
+}
+#ContentUp_TextOutput2 {	@include elemAutoHeight(21);
+}
+#ContentUp_TextOutput2 {	z-index: 8;
+}
+#ContentUp_TextOutput2 {	font-size: 16px;
+}

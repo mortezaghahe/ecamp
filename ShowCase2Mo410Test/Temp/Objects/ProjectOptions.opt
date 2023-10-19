@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.5.38 SP"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\projects\ShowCase2Mo410Test\Logical\"
+  TempDirectory="C:\projects\ShowCase2Mo410Test\Temp\"
+  AutomationStudioVersion="4.10.5.38 SP"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

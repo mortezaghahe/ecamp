@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentParameter_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserConvTopVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserConvBottomVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserInfeedConvTopVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserInfeedConvBottomVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserTopBoxReleaseTime" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed6" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserBottomBoxReleaseTime" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed7" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserConvLiftVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BoxLift:UserOutfeedConvVelocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="SetSpeed5" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gSpeedRefHmi" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="DropDownBox1" attribute="selectedIndex" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::RecipeMgmt:uiSave" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="PushButtonStart1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::RecipeMgmt:uiLoad" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="PushButtonStart2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::RecipeMgmt:RecipeError" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentParameter" widgetRefId="Image1" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

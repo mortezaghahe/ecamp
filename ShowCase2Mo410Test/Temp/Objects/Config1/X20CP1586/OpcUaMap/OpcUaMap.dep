@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/BoxLift/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1586/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/RecipeMgmt/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRecipe/MpRecipe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRecipe/MpRecipe.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1586/AccessAndSecurity/UserRoleSystem/Role.role
