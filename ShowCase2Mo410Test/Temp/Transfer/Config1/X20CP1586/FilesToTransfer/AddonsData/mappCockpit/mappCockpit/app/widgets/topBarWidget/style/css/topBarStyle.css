@@ -1,0 +1,43 @@
+.TopBarLayoutContainer {
+    grid-area: topbar; /* See girdLayout.css */
+    display: grid;
+    grid-template-columns: auto 3px 51px;
+    grid-template-rows: 48px;
+    grid-template-areas: "topbarwidget . login";
+    background-color: var(--main-border-color); 
+}
+
+.TopBarLayoutDefault {
+    grid-area: topbarwidget;
+    background-color: var(--navigation-background-color);
+}
+
+.TopBarLayout {
+    grid-area: topbarwidget;
+    overflow: hidden;
+    height: 48px;
+    background-color: var(--main-border-color);
+    display: grid;
+    grid-template-columns: 48px 3px auto fit-content(51px);
+    grid-template-rows: 48px;
+    grid-template-areas: "overview . flextabs dropdown";
+}
+
+.TabIsActive, .TabIsDeactive:hover {
+    background-color: var(--navigation-highlight-color) !important;
+}
+
+.TabIsDeactive {
+    background-color: var(--navigation-background-color) !important;
+    filter: brightness(0.75);
+}
+
+.TopBarInvisible {
+    display: none;
+}
+
+.LoginButtonContainer {
+    grid-area: login;
+    width: 51px;
+    height: 48px;
+}

@@ -1,0 +1,81 @@
+.FlexTabContainer {
+    grid-area: flextabs; /* See gridLayout.css */
+    background-color: var(--main-border-color);
+    display: flex;
+    /* Arrange tabs horizontally start from left */
+    flex-flow: column wrap;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.FlexTabPlaceHolder {
+    height: 48px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--navigation-background-color);
+}
+
+.FlexTabButton {
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    width: fit-content;
+    background-color: var(--navigation-background-color);
+    display: grid;
+    margin-right: 3px;
+    grid-template-columns: 36px auto 48px;
+    grid-template-rows: 48px;
+    grid-template-areas: 
+     "flextabiconleft flextabtext flextabiconright";
+}
+
+.FlexTabButton:hover {
+    cursor: pointer;
+}
+
+.FlexTabText {
+    grid-area: flextabtext;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: ltr;
+    min-width: fit-content;
+    max-width: 151px;
+    font-family: var(--main-font);
+    font-size: 12px;
+    border: 1px solid var(--main-border-color);
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 0px;
+    height: 32px;
+    line-height: 32px;
+    color: var(--main-white);
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.FlexTabIconLeft {
+    grid-area: flextabiconleft;
+    width: 36px;
+    height: 48px;
+    padding-left: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    background-image: url("../../../style/images/IconTabLeft.svg");
+    background-repeat: no-repeat;
+    background-position-x: 1px;
+    background-position-y: 3px;
+    background-size: 30px 42px;
+}
+
+.FlexTabIconRight {
+    grid-area: flextabiconright;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: 28px 28px;
+}

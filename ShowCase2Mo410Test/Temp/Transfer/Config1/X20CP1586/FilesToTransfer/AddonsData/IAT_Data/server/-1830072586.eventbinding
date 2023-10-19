@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentMain">
+    <EventBinding id="EventBinding_1">
+      <Source type="opcUa.Event" refId="::AsGlobalPV:gDispalyAlarm" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image1">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image1">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentMain">
+    <EventBinding id="EventBinding_2">
+      <Source type="opcUa.Event" refId="::AsGlobalPV:gDispalyRun" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentMain">
+    <EventBinding id="EventBinding_3">
+      <Source type="opcUa.Event" refId="::AsGlobalPV:gDispalyStop" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image3">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMain_Image3">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

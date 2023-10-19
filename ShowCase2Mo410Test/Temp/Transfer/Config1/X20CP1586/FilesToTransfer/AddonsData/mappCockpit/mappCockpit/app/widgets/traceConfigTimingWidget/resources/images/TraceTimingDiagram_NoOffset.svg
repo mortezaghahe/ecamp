@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="140.59219mm"
+   height="19.333166mm"
+   viewBox="0 0 140.59219 19.333166"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="TraceTimingDiagram_NoOffset.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1515"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1518"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <g
+       id="lend13">
+      <path
+         id="path817"
+         style="stroke:none"
+         d="M 3,1 0,0 3,-1 v 2"
+         inkscape:connector-curvature="0" />
+    </g>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-9.3000002"
+       v:setback="9.3"
+       v:arrowSize="2"
+       v:arrowType="13"
+       class="st2"
+       id="mrkr13-6"
+       style="overflow:visible">
+      <use
+         id="use820"
+         transform="scale(-3.1)"
+         xlink:href="#lend13"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+    <g
+       id="lend4">
+      <path
+         id="path823"
+         style="stroke:none"
+         d="M 2,1 0,0 2,-1 v 2"
+         inkscape:connector-curvature="0" />
+    </g>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="8.5"
+       v:setback="8.5"
+       v:arrowSize="2"
+       v:arrowType="4"
+       class="st9"
+       id="mrkr4-32"
+       style="overflow:visible">
+      <use
+         id="use826"
+         transform="scale(4.5)"
+         xlink:href="#lend4"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-9"
+       v:setback="9"
+       v:arrowSize="2"
+       v:arrowType="4"
+       class="st9"
+       id="mrkr4-34"
+       style="overflow:visible">
+      <use
+         id="use829"
+         transform="scale(-4.5)"
+         xlink:href="#lend4"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+    <g
+       id="lend10">
+      <path
+         id="path832"
+         style="stroke:none"
+         d="M 0,0.75 C -0.414214,0.75 -0.75,0.414214 -0.75,0 -0.75,-0.414214 -0.414214,-0.75 0,-0.75 0.414214,-0.75 0.75,-0.414214 0.75,0 0.75,0.414214 0.414214,0.75 0,0.75 Z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-3.375"
+       v:setback="3.375"
+       v:arrowSize="2"
+       v:arrowType="10"
+       class="st9"
+       id="mrkr10-100"
+       style="overflow:visible">
+      <use
+         id="use835"
+         transform="scale(-4.5)"
+         xlink:href="#lend10"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-9.3000002"
+       v:setback="9.3"
+       v:arrowSize="2"
+       v:arrowType="13"
+       class="st2"
+       id="mrkr13-6-1">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use820-8"
+         transform="scale(-3.1)"
+         xlink:href="#lend13" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-9.3000002"
+       v:setback="9.3"
+       v:arrowSize="2"
+       v:arrowType="13"
+       class="st2"
+       id="mrkr13-6-3">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use820-84"
+         transform="scale(-3.1)"
+         xlink:href="#lend13" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="173.78352"
+     inkscape:cy="98.331813"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.278786,-58.755118)">
+    <rect
+       style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:none;stroke-width:0.25247738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3"
+       x="156.91878"
+       y="74.08828"
+       width="3.9521961"
+       height="4.0000033"
+       class="st3"
+       id="rect850-1" />
+    <g
+       id="shape299-1-8"
+       v:mID="299"
+       v:groupContext="shape"
+       transform="matrix(0.3485612,0,0,0.35277753,20.568251,8.8160013)"
+       style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+      <title
+         id="title841-9">Tabelle.299</title>
+      <path
+         style="stroke:#000000;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr13-6-1)"
+         inkscape:connector-curvature="0"
+         d="M 0,179.35 H 380.02"
+         class="st1"
+         id="path843-7" />
+    </g>
+    <text
+       style="font-size:4.20799828px;font-family:Arial;color-interpolation-filters:sRGB;fill:#000000;fill-rule:evenodd;stroke-width:0.35066304;stroke-linecap:square;stroke-miterlimit:3"
+       x="157.86499"
+       y="77.43277"
+       class="st4"
+       v:langID="1033"
+       id="text852-9"
+       transform="scale(0.99400613,1.00603)"><v:paragraph />
+<v:tabList />
+t</text>
+    <g
+       style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+       transform="matrix(0,-0.35277753,0.35277753,0,-42.228979,136.65471)"
+       v:groupContext="shape"
+       v:mID="302"
+       id="shape302-15">
+      <title
+         id="title860">Y Axis.15</title>
+    </g>
+    <g
+       transform="translate(-0.34499078,-60.218602)"
+       id="g1879-8">
+      <g
+         id="shape323-17-0"
+         v:mID="323"
+         v:groupContext="shape"
+         transform="matrix(0,0.09411006,-0.35277753,0,128.31532,121.6247)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title863-1">Dashed vertical line.58</title>
+        <path
+           style="stroke:#000000;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.4, 6"
+           inkscape:connector-curvature="0"
+           d="M 0,179.35 H 141.5"
+           class="st5"
+           id="path865-3" />
+      </g>
+      <text
+         id="text1872-2"
+         y="121.28831"
+         x="65.673363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="121.28831"
+           x="65.673363"
+           id="tspan1870-7"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g1470"
+       transform="translate(-0.37797619,-32.576367)">
+      <g
+         id="shape382-26"
+         v:mID="382"
+         v:groupContext="shape"
+         v:layerMember="0"
+         transform="matrix(0.35277753,0,0,0.35277753,65.727296,41.882792)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title885">Dynamischer Verbinder</title>
+        <desc
+           id="desc887">Total recording time</desc>
+        <v:userDefs>
+          <v:ud
+             v:nameU="visVersion"
+             v:val="VT0(15):26" />
+        </v:userDefs>
+        <v:textBlock
+           v:margins="rect(4,4,4,4)" />
+        <v:textRect
+           cx="68.5984"
+           cy="172.268"
+           width="102.64"
+           height="29.6036" />
+        <path
+           style="stroke:#525252;stroke-width:0.72000003;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-32);marker-end:url(#mrkr4-34)"
+           inkscape:connector-curvature="0"
+           d="M 6.12,172.27 H 6.48 130.72"
+           class="st8"
+           id="path889" />
+        <text
+           style="font-size:9px;font-family:Verdana;fill:#525252"
+           x="22.870001"
+           y="169.57001"
+           class="st10"
+           v:langID="3079"
+           id="text891"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Total recording time<v:newlineChar />
+</text>
+      </g>
+      <g
+         id="group390-80"
+         transform="matrix(0.35277753,0,0,0.35277753,21.043188,41.382553)"
+         v:mID="390"
+         v:groupContext="group"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title964">Tabelle.390</title>
+        <g
+           id="shape331-81"
+           v:mID="331"
+           v:groupContext="shape"
+           transform="translate(62.3622)">
+          <title
+             id="title966">Digital value.331</title>
+          <path
+             style="stroke:#55787d;stroke-width:2.16000009;stroke-linecap:round;stroke-linejoin:round"
+             inkscape:connector-curvature="0"
+             d="m 0,179.35 h 62.46 v -22.67 h 80.32"
+             class="st11"
+             id="path968" />
+        </g>
+        <g
+           id="shape332-84"
+           v:mID="332"
+           v:groupContext="shape"
+           transform="matrix(-1,0,0,1,311.811,0)">
+          <title
+             id="title971">Digital value.322</title>
+          <path
+             style="stroke:#55787d;stroke-width:2.16000009;stroke-linecap:round;stroke-linejoin:round"
+             inkscape:connector-curvature="0"
+             d="m 0,179.35 h 46.67 v -22.67 h 60"
+             class="st11"
+             id="path973" />
+        </g>
+        <g
+           id="shape337-87"
+           v:mID="337"
+           v:groupContext="shape">
+          <title
+             id="title976">Digital value.337</title>
+          <path
+             style="stroke:#55787d;stroke-width:2.16000009;stroke-linecap:round;stroke-linejoin:round"
+             inkscape:connector-curvature="0"
+             d="m 0,179.35 h 53.33 68.56"
+             class="st11"
+             id="path978" />
+        </g>
+        <g
+           id="shape340-90"
+           v:mID="340"
+           v:groupContext="shape"
+           transform="translate(300.472)">
+          <title
+             id="title981">Digital value.340</title>
+          <path
+             style="stroke:#55787d;stroke-width:2.16000009;stroke-linecap:round;stroke-linejoin:round"
+             inkscape:connector-curvature="0"
+             d="M 0,179.35 H 29.76 68.03"
+             class="st11"
+             id="path983" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <style
+     id="style815"
+     type="text/css"><![CDATA[
+		.st1 {marker-end:url(#mrkr13-6);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.32258064516129}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st4 {fill:#000000;font-family:Arial;font-size:1.00001em}
+		.st5 {stroke:#000000;stroke-dasharray:8.4,6;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st6 {fill:#551e00;font-family:Verdana;font-size:0.75em}
+		.st7 {fill:#551e00;stroke:#551e00;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st8 {marker-end:url(#mrkr4-34);marker-start:url(#mrkr4-32);stroke:#525252;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st9 {fill:#525252;fill-opacity:1;stroke:#525252;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st10 {fill:#525252;font-family:Verdana;font-size:0.75em}
+		.st11 {stroke:#55787d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st12 {marker-end:url(#mrkr10-100);marker-start:url(#mrkr4-32);stroke:#525252;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st13 {stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style>
+</svg>
